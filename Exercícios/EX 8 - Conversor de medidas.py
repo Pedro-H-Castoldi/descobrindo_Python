@@ -1,0 +1,7 @@
+m = float(input('Digite um valor em metros: '))
+print(f'{m} m equivale a : {m/1000:.2} km')
+print(f'{m} m equivale a: {m/100:.2} hm')
+print(f'{m} m equilave a {m/10:.2} dam')
+print(f'{m} m equivale a {m*10:.1   f} dm')
+print(f'{m} m equivale a {m*100:.1f} cm')
+print(f'{m} m equivale a {m*1000:.1f} mm')
