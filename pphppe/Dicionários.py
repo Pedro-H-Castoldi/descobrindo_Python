@@ -101,7 +101,7 @@ print(paises)
 print(ret)
 
 # Forma 2
-del paises['BR'] #Desse modo n dá para armazenar a o elemento eliminado em uma variável
+del paises['BR'] #Desse modo n dá para armazenar o elemento eliminado em uma variável
 print(paises)
 
 

@@ -56,4 +56,3 @@ print(n(7))
 
 # Inserindo os argumentos da f_qua e da lambda de uma só vez
 print(f_qua(1, 2, 3)(0))
-
