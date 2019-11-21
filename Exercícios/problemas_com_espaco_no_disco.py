@@ -10,16 +10,16 @@ while True:
     nomes.append(nome)
     espacos.append(espaco)
 
-    r = str(input('Continuar? S - SIM | N - NÃO'))
+    r = str(input('Continuar? S - SIM | N - NÃO: '))
     if r in 'Nn':
         break
 
 
 def zipar(no, es, po):
-    for i in range(len(no)):
-        dados.append([no[i], es[i], po[i]])
-    for j in range(len(dados)):
-        print(dados[i])
+    zipp = list(zip(no, es, po))
+    print('NOME                 MB            PORCENTAGEM')
+    for i in range(len(zipp)):
+        print(f'{zipp[i][0]}:           {zipp[i][1]:.5f}            {zipp[i][2]:.2f}')
 
 
 def porcentagemOcupada(mb):
@@ -28,7 +28,7 @@ def porcentagemOcupada(mb):
     for i in range(len(mb)):
         por = (mb[i] * 100)/total
         porcentagem.append(por)
-    zipar(nomes, espacos, porcentagemOcupada)
+    zipar(nomes, espacos, porcentagem)
 
 
 def conversao (b):
