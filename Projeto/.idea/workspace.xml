@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0c314d6-3e6d-4c8e-bb75-d3b1ff402611" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fiados.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercícios/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercícios/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pphppe/11_erros_mais_comuns_em_python.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pphppe/11_levantanto_os_proprios_erros_com_raise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pphppe/try_except.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiados.py" beforeDir="false" afterPath="$PROJECT_DIR$/fiados.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pphppe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pphppe/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fiados.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="55" column="66" selection-start-line="55" selection-start-column="66" selection-end-line="55" selection-end-column="66" />
+            <state relative-caret-position="322">
+              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
             </state>
           </provider>
         </entry>
@@ -141,8 +143,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/fiados.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="55" column="66" selection-start-line="55" selection-start-column="66" selection-end-line="55" selection-end-column="66" />
+        <state relative-caret-position="322">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
         </state>
       </provider>
     </entry>

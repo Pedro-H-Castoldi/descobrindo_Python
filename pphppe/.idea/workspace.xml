@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00a47dcd-f039-44bc-bccb-792c7477599b" name="Default Changelist" comment="adicionando files">
-      <change beforePath="$PROJECT_DIR$/../Exercícios/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercícios/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_erros_mais_comuns_em_python.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_levantanto_os_proprios_erros_com_raise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_except.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/fiados.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/fiados.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +16,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11_erros_mais_comuns_em_python.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11_levantanto_os_proprios_erros_com_raise.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/try_except.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -73,6 +106,9 @@
         <option value="$PROJECT_DIR$/10_any_e_all.py" />
         <option value="$PROJECT_DIR$/10_lambdas.py" />
         <option value="$PROJECT_DIR$/Dicionários.py" />
+        <option value="$PROJECT_DIR$/11_erros_mais_comuns_em_python.py" />
+        <option value="$PROJECT_DIR$/11_levantanto_os_proprios_erros_com_raise.py" />
+        <option value="$PROJECT_DIR$/try_except.py" />
       </list>
     </option>
   </component>
@@ -105,8 +141,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Dicionários">
-    <configuration name="10_generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.try_except">
+    <configuration name="11_erros_mais_comuns_em_python" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pphppe" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,7 +154,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10_generator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_erros_mais_comuns_em_python.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,7 +163,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="10_min_e_max" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="11_levantanto_os_proprios_erros_com_raise" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pphppe" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,28 +175,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10_min_e_max.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="10_sorted" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pphppe" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10_sorted.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_levantanto_os_proprios_erros_com_raise.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,20 +226,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="try_except" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pphppe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/try_except.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.10_generator" />
-      <item itemvalue="Python.10_sorted" />
-      <item itemvalue="Python.10_min_e_max" />
       <item itemvalue="Python.9_dictionary_comprehension" />
       <item itemvalue="Python.Dicionários" />
+      <item itemvalue="Python.11_erros_mais_comuns_em_python" />
+      <item itemvalue="Python.11_levantanto_os_proprios_erros_com_raise" />
+      <item itemvalue="Python.try_except" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.try_except" />
+        <item itemvalue="Python.11_levantanto_os_proprios_erros_com_raise" />
+        <item itemvalue="Python.11_erros_mais_comuns_em_python" />
         <item itemvalue="Python.Dicionários" />
         <item itemvalue="Python.9_dictionary_comprehension" />
-        <item itemvalue="Python.10_min_e_max" />
-        <item itemvalue="Python.10_sorted" />
-        <item itemvalue="Python.10_generator" />
       </list>
     </recent_temporary>
   </component>
@@ -615,6 +651,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
           <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11_levantanto_os_proprios_erros_com_raise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11_erros_mais_comuns_em_python.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/try_except.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
         </state>
       </provider>
     </entry>

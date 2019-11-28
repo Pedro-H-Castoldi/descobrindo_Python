@@ -15,7 +15,7 @@ def cadastrarCliente():
         idade = int(input('Idade: '))
         cpf = str(input('CPF: '))
         endereco = str(input('Endereço: '))
-        clientes.update({id: [nome, idade, cpf, endereco]})
+        clientes.update({id: [nome.title(), idade, cpf, endereco]})
 
         op = str(input('Cadastrar outro cliente? 1- S 2- N '))
         if op in 'Nn':
@@ -53,7 +53,7 @@ def compras():
             break
 
     idcompra = 11 + idc
-    carrinho.update({idcompra: [cliente, comprado]}) # NECESSÁRIO MAIS DADOS DO CLIENTE
+    carrinho.update({idcompra: [cliente, clientes[cliente], comprado]})
 
     if teve > 0:
         op = str(input('Compra fiada?: '))
@@ -64,9 +64,9 @@ def compras():
         print('Fim.')
 
 def devedores():
-    print('ID Compra         ID Cliente         Nome            ID Produto(s)')
+    print('ID Compra         ID Cliente         Nome            Produto(s)')
     for i in devendo:
-        print(f'{i}          {devendo[i][0]}                {devendo[i][1]}')
+        print(f'{i}          {devendo[i][0]}    {devendo[i][1][0]}            {devendo[i][2]}')
 
 
 
