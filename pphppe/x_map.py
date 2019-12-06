@@ -41,4 +41,4 @@ cidade = [('Cedro', 44), ('Iguatu', 40), ('Campinas', 22)]
 # Pegar as temperaturas das cidades em graus C° e tranforma-las em F ((9/5) * C° + 32)
 c_to_f = lambda valor: (valor[0], (9/5) * valor[1] + 32) # valor[0] = nome cidade e valor[1] C°
 
-print(list(map(c_to_f, cidade)))
+#print(list(map(c_to_f, cidade)))

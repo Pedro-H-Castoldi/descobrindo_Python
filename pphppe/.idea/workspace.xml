@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00a47dcd-f039-44bc-bccb-792c7477599b" name="Default Changelist" comment="adicionando files">
-      <change afterPath="$PROJECT_DIR$/11_debugando_codigo_em_pdb.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11_try_except_else_finally.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projeto/cadastrar_cliente.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projeto/devedores.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projeto/efetuar_compra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projeto/exibir_clientes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projeto/exibir_produtos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projeto/variaveis_g.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_modulo_random.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_modulos_builtin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_modulos_customizados.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xi_modulos_externos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/fiados.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/fiados.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/try_except.py" beforeDir="false" afterPath="$PROJECT_DIR$/11_try_except.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-map.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/x_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_lambdas.py" beforeDir="false" afterPath="$PROJECT_DIR$/x_lambdas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/args.py" beforeDir="false" afterPath="$PROJECT_DIR$/args.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +31,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/11_debugando_codigo_em_pdb.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11_modulo_random.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="92" column="1" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
+            <state relative-caret-position="920">
+              <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11_modulos_builtin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11_modulos_customizados.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xi_modulos_externos.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/subprocess.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="1177" selection-start-line="1177" selection-end-line="1177" />
             </state>
           </provider>
         </entry>
@@ -42,11 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PEP8.py" />
-        <option value="$PROJECT_DIR$/Dir_e_Help.py" />
-        <option value="$PROJECT_DIR$/Recebendo_Dados_Usuário.py" />
-        <option value="$PROJECT_DIR$/Tipo_Numerico.py" />
-        <option value="$PROJECT_DIR$/Tipo_Float.py" />
         <option value="$PROJECT_DIR$/Tipo_Booleano.py" />
         <option value="$PROJECT_DIR$/Tipo_String.py" />
         <option value="$PROJECT_DIR$/Escopo_de_Variáveis.py" />
@@ -71,7 +115,6 @@
         <option value="$PROJECT_DIR$/funções_com_parâmetro.py" />
         <option value="$PROJECT_DIR$/funcoes_com_parametro_padrao.py" />
         <option value="$PROJECT_DIR$/docstrings.py" />
-        <option value="$PROJECT_DIR$/args.py" />
         <option value="$PROJECT_DIR$/kwargs.py" />
         <option value="$PROJECT_DIR$/listas_aninhadas.py" />
         <option value="$PROJECT_DIR$/7_dictionary_comprehension.py" />
@@ -93,6 +136,12 @@
         <option value="$PROJECT_DIR$/try_except.py" />
         <option value="$PROJECT_DIR$/11_try_except_else_finally.py" />
         <option value="$PROJECT_DIR$/11_debugando_codigo_em_pdb.py" />
+        <option value="$PROJECT_DIR$/11_modulo_random.py" />
+        <option value="$PROJECT_DIR$/11_modulos_builtin.py" />
+        <option value="$PROJECT_DIR$/args.py" />
+        <option value="$PROJECT_DIR$/x_map.py" />
+        <option value="$PROJECT_DIR$/11_modulos_customizados.py" />
+        <option value="$PROJECT_DIR$/xi_modulos_externos.py" />
       </list>
     </option>
   </component>
@@ -125,8 +174,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.11_debugando_codigo_em_pdb">
-    <configuration name="11_debugando_codigo_em_pdb" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.xi_modulos_externos">
+    <configuration name="11_modulos_builtin" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pphppe" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,7 +187,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_debugando_codigo_em_pdb.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_modulos_builtin.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,7 +196,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="11_erros_mais_comuns_em_python" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="11_modulos_customizados" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pphppe" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,7 +208,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_erros_mais_comuns_em_python.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_modulos_customizados.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,7 +217,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="11_levantanto_os_proprios_erros_com_raise" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="args" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pphppe" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -180,7 +229,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_levantanto_os_proprios_erros_com_raise.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/args.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,7 +238,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="11_try_except_else_finally" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dez_map" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pphppe" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,7 +250,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_try_except_else_finally.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\PH\PycharmProjects\descobrindo_Python\pphppe\x_map.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -210,7 +259,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="try_except" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="xi_modulos_externos" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pphppe" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -222,7 +271,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\PH\PycharmProjects\descobrindo_Python\pphppe\11_try_except.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xi_modulos_externos.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -232,19 +281,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.11_erros_mais_comuns_em_python" />
-      <item itemvalue="Python.11_levantanto_os_proprios_erros_com_raise" />
-      <item itemvalue="Python.try_except" />
-      <item itemvalue="Python.11_try_except_else_finally" />
-      <item itemvalue="Python.11_debugando_codigo_em_pdb" />
+      <item itemvalue="Python.11_modulos_builtin" />
+      <item itemvalue="Python.11_modulos_customizados" />
+      <item itemvalue="Python.args" />
+      <item itemvalue="Python.dez_map" />
+      <item itemvalue="Python.xi_modulos_externos" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.11_debugando_codigo_em_pdb" />
-        <item itemvalue="Python.11_try_except_else_finally" />
-        <item itemvalue="Python.try_except" />
-        <item itemvalue="Python.11_levantanto_os_proprios_erros_com_raise" />
-        <item itemvalue="Python.11_erros_mais_comuns_em_python" />
+        <item itemvalue="Python.xi_modulos_externos" />
+        <item itemvalue="Python.11_modulos_customizados" />
+        <item itemvalue="Python.dez_map" />
+        <item itemvalue="Python.args" />
+        <item itemvalue="Python.11_modulos_builtin" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +329,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.23660715" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -300,6 +348,25 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23660715" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.3296131" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49776787" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49925596" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49925596" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50223213" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.29623568" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -329,41 +396,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Recebendo_Dados_Usuário.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="24" column="82" selection-start-line="24" selection-start-column="82" selection-end-line="24" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tipo_Numerico.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tipo_Float.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tipo_Booleano.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tipo_String.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Escopo_de_Variáveis.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -514,13 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/args.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kwargs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="523">
@@ -549,21 +574,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10-map.py">
+    <entry file="file://$PROJECT_DIR$/x_lambdas.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10_lambdas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10_generator.py">
+    <entry file="file://$PROJECT_DIR$/x_generator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
@@ -578,13 +596,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/10_min_e_max.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10_reduce.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
@@ -673,8 +684,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/11_debugando_codigo_em_pdb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
+        <state relative-caret-position="1840">
           <caret line="92" column="1" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/args.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10_reduce.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/x_map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11_modulo_random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11_modulos_builtin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11_modulos_customizados.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/subprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="1177" selection-start-line="1177" selection-end-line="1177" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xi_modulos_externos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
         </state>
       </provider>
     </entry>

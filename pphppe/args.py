@@ -54,3 +54,11 @@ print(multiplica(2, 2, 2))
 print(multiplica(numeros)) # N funcionará
 print(multiplica(*numeros)) # Desse modo funcionará, pois o conjunto de valores irá ser desempacotado por conta do '*'
 """
+
+def multiplica(*args):
+    n = 1
+    for i, _ in enumerate(args):
+        n = args[i] * n
+    return n
+
+numeros = [5, 7, 2, 9]
