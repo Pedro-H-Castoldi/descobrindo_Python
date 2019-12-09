@@ -66,4 +66,11 @@ print(nome_completo('Wallyson', 'Leite'))
 print(nome_completo(sobrenome= 'Leite', nome= 'Wallyson'))
 
 """
+# Tirando o print da importação da sessão 12 (Dunder)
 
+
+def nome_completo(nome, sobrenome):
+    return f'Seu nome completo é {nome} {sobrenome}.'
+
+if __name__ == '__main__':
+    print(nome_completo('Wallyson', 'Leite')) # Só será executado se for compilado como arquivo principal
