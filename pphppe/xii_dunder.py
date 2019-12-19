@@ -22,9 +22,10 @@ módulo de execução principal.
 
 
 Para tirar os prints das importações de módulos, se utiliza a seguinte condição:
-if __name__ == '__main__':
+
     numeros = [1, 6, 3]
-    print(numeros)
+    if __name__ == '__main__':
+        print(numeros)
 
 Desta forma o print só será executado caso esse arquivo esteja sendo executado como principal (main), senão estiver,
 somente a variável 'numeros' será importada.

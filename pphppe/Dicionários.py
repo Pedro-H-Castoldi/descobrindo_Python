@@ -149,11 +149,11 @@ print(paises)
 # Copiar dicionário
 # Forma 1 - Deep Copy
 print(paises)
-novo = paises.copy() # Deep Copy
-novo['AUS'] = 'Australha'
+novo.txt = paises.copy() # Deep Copy
+novo.txt['AUS'] = 'Australha'
 
 print(paises)
-print(novo)
+print(novo.txt)
 
 # Forma 2 - Shallow Copy
 print(estados)

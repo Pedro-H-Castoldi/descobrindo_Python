@@ -10,12 +10,12 @@ numeros = [5, 9, 2, 6]
 
 # O interável 'numeros' será pego e com o List Comprehesiom será pego os valores desse interável e multiplicados cada um por 10
 # e então armazenados na lista 'nova'
-novo = [dados * 10 for dados in numeros]
-print(novo)
+novo.txt = [dados * 10 for dados in numeros]
+print(novo.txt)
 
 # EX 2
-novo = [dados / 2 for dados in numeros]
-print(novo)
+novo.txt = [dados / 2 for dados in numeros]
+print(novo.txt)
 
 # EX 3 - Usando função
 def quadrado(n):

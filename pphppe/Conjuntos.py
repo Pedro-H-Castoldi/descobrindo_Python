@@ -97,18 +97,18 @@ print(set)
 
 # Copiando conjuntos
 #Forma 1 - Deep Copy
-novo = set.copy()
-novo.add(19)
+novo.txt = set.copy()
+novo.txt.add(19)
 
 print(set)
-print(novo) # A ordem muda mas os elementos são os mesmos
+print(novo.txt) # A ordem muda mas os elementos são os mesmos
 
 # Forma 2 - Shallow Copy
-novo = set
-novo.add(111)
+novo.txt = set
+novo.txt.add(111)
 
 print(set)
-print(novo)
+print(novo.txt)
 
 
 # Remover todos os valores do conjunto

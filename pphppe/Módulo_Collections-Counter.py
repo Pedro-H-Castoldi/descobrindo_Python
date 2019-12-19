@@ -25,7 +25,7 @@ print(Counter('Pedro Henrique Castoldi Bezerra'))
 
 
 # Exemplo 3
-texto = 'Um guia de TV no Japão, revelou um novo título para o anime Pokémon Sun e Moon' \
+texto = 'Um guia de TV no Japão, revelou um novo.txt título para o anime Pokémon Sun e Moon' \
         ' que mostra uma relação com um dos gêneros mais famosos atualmente no mundo dos ' \
         'jogos, que vai ao ar no dia 07 de julho. Este capítulo mostrará as rodadas preliminares' \
         ' na Liga Pokémon de Alola, onde 151 treinadores se enfrentarão até sobrarem 16 competidores' \
