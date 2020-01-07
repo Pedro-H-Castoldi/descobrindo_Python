@@ -16,9 +16,9 @@ def verProduto():
         if p in '12345678910':
             p = int(p)
         else:
-            p = p.title()
+            p = p.lower()
         for i in produtos:
-            if i == p or produtos[i][0] == p:
+            if i == p or produtos[i][0].lower() == p:
                 if produtos[i][2]:
                     situacao = 'em estoque'
                 else:

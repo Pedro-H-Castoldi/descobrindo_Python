@@ -15,9 +15,9 @@ def consultarClientes():
         if p in '12345678910':
             p = int(p)
         else:
-            p = p.title()
+            p = p.lower()
         for i in clientes:
-            if i == p or clientes[i][0] == p:
+            if i == p or clientes[i][0].lower() == p:
                 if clientes[i][4]:
                     situacao = 'Conta paga'
                 else:
