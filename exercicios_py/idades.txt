@@ -1,0 +1,12 @@
+Pedro - IDADE: 24 (maior de idade).
+
+Allan - IDADE: 19 (maior de idade).
+
+Marcos - IDADE: 32 (maior de idade).
+
+Alex - IDADE: 65 (maior de idade).
+
+Enzo - IDADE: 1 (menor de idade).
+
+Renilda - IDADE: 18 (entrando na maior idade).
+
