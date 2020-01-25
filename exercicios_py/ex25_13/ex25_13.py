@@ -3,6 +3,8 @@ from ex25_13_inserir import *
 from ex25_13_insercao_de_dados import *
 from ex25_13_remover import *
 from ex25_13_inserir_na_lista import *
+from ex25_13_busca import *
+from ex25_13_niver import *
 
 def home():
     inserirNaLista()
@@ -15,11 +17,10 @@ def home():
             elif op == 2:
                 remover()
             elif op == 3:
-                pass
-                #busca()
+                busca()
             elif op == 4:
                 pass
-                #aniversarioM()
+                niver()
             else:
                 break
 

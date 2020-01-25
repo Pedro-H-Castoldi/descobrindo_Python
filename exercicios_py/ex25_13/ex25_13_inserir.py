@@ -15,6 +15,11 @@ def inserir():
                 elif mes < 1 or mes > 12:
                     raise ValueError
                 else:
+                    if dia < 10:
+                        dia = f'0{dia}'
+                    if mes < 10:
+                        mes = f'0{mes}'
+
                     an = f'{dia}/{mes}'
                     break
             except ValueError:
@@ -33,7 +38,7 @@ def inserir():
             except (TypeError, ValueError) as e:
                 print(f'Algo deu errado! {e}')
 
-        fun.append([nome, an, tel])
+        fun.append([nome.title(), an, tel])
 
         op = str(input('Inserir mais funcionários? S- SIM | N- NÃO: '))
         if op in 'Nn':

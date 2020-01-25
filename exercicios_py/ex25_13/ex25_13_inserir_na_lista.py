@@ -10,4 +10,4 @@ def inserirNaLista():
                 a = a.split(' -- ')
                 fun.append(a)
 
-        print(fun)
+        #print(fun)
