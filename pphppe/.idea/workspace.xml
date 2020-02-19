@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00a47dcd-f039-44bc-bccb-792c7477599b" name="Default Changelist" comment="adicionando files">
-      <change afterPath="$PROJECT_DIR$/sessao15/decoradores.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessao15/decorators_com_diferentes_assinaturas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessao15/forcando_tipos_de_dados_com_decorators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessao15/funcoes_maior_grandeza.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessao15/preservando_metadatas_com_wraps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessao16/abstracao_encapsulamento.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessao16/atributos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessao16/classes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessao16/metodos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessao16/objetos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessao16/poo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,46 +22,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sessao15/funcoes_maior_grandeza.py">
+        <entry file="file://$PROJECT_DIR$/sessao16/poo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="66" column="83" selection-start-line="66" selection-start-column="83" selection-end-line="66" selection-end-column="83" />
+            <state relative-caret-position="500">
+              <caret line="25" column="89" selection-start-line="25" selection-start-column="89" selection-end-line="25" selection-end-column="89" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sessao15/decoradores.py">
+        <entry file="file://$PROJECT_DIR$/sessao16/classes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="440">
+              <caret line="22" column="96" selection-start-line="22" selection-start-column="96" selection-end-line="22" selection-end-column="96" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sessao15/decorators_com_diferentes_assinaturas.py">
+        <entry file="file://$PROJECT_DIR$/sessao16/atributos.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+            <state relative-caret-position="3540">
+              <caret line="177" selection-start-line="177" selection-end-line="177" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sessao15/preservando_metadatas_com_wraps.py">
+        <entry file="file://$PROJECT_DIR$/sessao16/metodos.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="3380">
+              <caret line="169" selection-start-line="169" selection-end-line="169" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sessao16/objetos.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="69" column="50" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sessao15/forcando_tipos_de_dados_com_decorators.py">
+        <entry file="file://$PROJECT_DIR$/sessao16/abstracao_encapsulamento.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+            <state relative-caret-position="312">
+              <caret line="94" column="1" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -80,12 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/7_set_comprehension.py" />
-        <option value="$PROJECT_DIR$/10-map.py" />
-        <option value="$PROJECT_DIR$/10_filter.py" />
-        <option value="$PROJECT_DIR$/9_listas_aninhadas.py" />
-        <option value="$PROJECT_DIR$/10_reduce.py" />
-        <option value="$PROJECT_DIR$/10_generator.py" />
         <option value="$PROJECT_DIR$/10_sorted.py" />
         <option value="$PROJECT_DIR$/10_min_e_max.py" />
         <option value="$PROJECT_DIR$/10_any_e_all.py" />
@@ -131,6 +135,12 @@
         <option value="$PROJECT_DIR$/sessao15/decorators_com_diferentes_assinaturas.py" />
         <option value="$PROJECT_DIR$/sessao15/preservando_metadatas_com_wraps.py" />
         <option value="$PROJECT_DIR$/sessao15/forcando_tipos_de_dados_com_decorators.py" />
+        <option value="$PROJECT_DIR$/sessao16/poo.py" />
+        <option value="$PROJECT_DIR$/sessao16/classes.py" />
+        <option value="$PROJECT_DIR$/sessao16/atributos.py" />
+        <option value="$PROJECT_DIR$/sessao16/metodos.py" />
+        <option value="$PROJECT_DIR$/sessao16/objetos.py" />
+        <option value="$PROJECT_DIR$/sessao16/abstracao_encapsulamento.py" />
       </list>
     </option>
   </component>
@@ -163,8 +173,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.forcando_tipos_de_dados_com_decorators">
-    <configuration name="decoradores" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.abstracao_encapsulamento">
+    <configuration name="abstracao_encapsulamento" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pphppe" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -172,11 +182,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao15" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao16" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao15/decoradores.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao16/abstracao_encapsulamento.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,7 +195,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="decorators_com_diferentes_assinaturas" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="atributos" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pphppe" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -193,11 +203,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao15" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao16" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao15/decorators_com_diferentes_assinaturas.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao16/atributos.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,7 +216,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="forcando_tipos_de_dados_com_decorators" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="classes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pphppe" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -214,11 +224,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao15" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao16" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao15/forcando_tipos_de_dados_com_decorators.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao16/classes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -227,7 +237,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="funcoes_maior_grandeza" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="metodos" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pphppe" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -235,11 +245,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao15" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao16" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao15/funcoes_maior_grandeza.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao16/metodos.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -248,7 +258,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="preservando_metadatas_com_wraps" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="objetos" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pphppe" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -256,11 +266,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao15" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao16" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao15/preservando_metadatas_com_wraps.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao16/objetos.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -270,19 +280,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.funcoes_maior_grandeza" />
-      <item itemvalue="Python.decoradores" />
-      <item itemvalue="Python.decorators_com_diferentes_assinaturas" />
-      <item itemvalue="Python.preservando_metadatas_com_wraps" />
-      <item itemvalue="Python.forcando_tipos_de_dados_com_decorators" />
+      <item itemvalue="Python.classes" />
+      <item itemvalue="Python.atributos" />
+      <item itemvalue="Python.metodos" />
+      <item itemvalue="Python.objetos" />
+      <item itemvalue="Python.abstracao_encapsulamento" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.forcando_tipos_de_dados_com_decorators" />
-        <item itemvalue="Python.preservando_metadatas_com_wraps" />
-        <item itemvalue="Python.decorators_com_diferentes_assinaturas" />
-        <item itemvalue="Python.decoradores" />
-        <item itemvalue="Python.funcoes_maior_grandeza" />
+        <item itemvalue="Python.abstracao_encapsulamento" />
+        <item itemvalue="Python.objetos" />
+        <item itemvalue="Python.metodos" />
+        <item itemvalue="Python.atributos" />
+        <item itemvalue="Python.classes" />
       </list>
     </recent_temporary>
   </component>
@@ -367,30 +377,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/11_try_except.py" />
-    <entry file="file://$PROJECT_DIR$/11_try_except_else_finally.py" />
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/urllib/parse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="817" selection-start-line="817" selection-end-line="817" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11_debugando_codigo_em_pdb.py" />
     <entry file="file://$PROJECT_DIR$/args.py" />
     <entry file="file://$PROJECT_DIR$/10_reduce.py" />
     <entry file="file://$PROJECT_DIR$/x_map.py" />
@@ -521,13 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sessao15/funcoes_maior_grandeza.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="66" column="83" selection-start-line="66" selection-start-column="83" selection-end-line="66" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sessao8/args.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
@@ -542,16 +521,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sessao15/funcoes_maior_grandeza.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="66" column="83" selection-start-line="66" selection-start-column="83" selection-end-line="66" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sessao15/decoradores.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="900">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sessao15/decorators_com_diferentes_assinaturas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
+        <state relative-caret-position="329">
           <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
         </state>
       </provider>
@@ -565,8 +551,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sessao15/forcando_tipos_de_dados_com_decorators.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        <state relative-caret-position="203">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sessao16/poo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="89" selection-start-line="25" selection-start-column="89" selection-end-line="25" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sessao16/classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="96" selection-start-line="22" selection-start-column="96" selection-end-line="22" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sessao16/atributos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3540">
+          <caret line="177" selection-start-line="177" selection-end-line="177" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sessao16/metodos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3380">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sessao16/objetos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="69" column="50" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sessao16/abstracao_encapsulamento.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="94" column="1" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
         </state>
       </provider>
     </entry>
