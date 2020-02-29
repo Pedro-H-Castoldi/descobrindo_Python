@@ -10,6 +10,7 @@ class Pessoa:
         Pessoa.cont += 1
 
     def alterar_dados(self):
+        op = 1
         op = int(input('1- NOME | 2- SOBRENOME | 3- IDADE | 4- CPF | 5- ENDEREÇO | 0- SAIR: '))
         if op == 1:
             muda = str(input(f'{self.__nome}: '))
@@ -26,15 +27,23 @@ class Pessoa:
         if op == 5:
             muda = str(input(f'{self.endereco}: '))
             self.__endereco = muda
-        else:
+        if op < 1 or op > 5:
             print('Ok!')
 
     def imprimir_dados(self):
         return f'NOME: {self.__nome}\nSOBRENOME: {self.__sobrenome}\nIDADE: {self.__idade}\nCPF: {self.__cpf}\nENDEREÇO: {self.__endereco}'
 
+p1 = Pessoa('Pedro Henrique', 'Castoldi Bezerra', 22, '111.111.111.11', 'vc')
 
-def menu():
-    op = int(input('1- Adicionar usuário | 2- Editar | 3- Imprimir dados'))
+p2 = Pessoa('Juninho', 'Castoldi Bezerra', 3, '222.222.222.22', 'vc')
 
-    if op == 1:
-        nome =
+print(p1.imprimir_dados())
+print()
+print(p2.imprimir_dados())
+
+p1.alterar_dados()
+p2.alterar_dados()
+
+print(p1.imprimir_dados())
+print()
+print(p2.imprimir_dados())

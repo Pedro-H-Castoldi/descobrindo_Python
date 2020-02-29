@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b7d0fb4-63af-458e-ae78-c51fcd1c4439" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ex_poo_sessao_16/ex1/ex1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pphppe/sessao16/abstracao_encapsulamento.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pphppe/sessao16/atributos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pphppe/sessao16/classes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pphppe/sessao16/metodos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pphppe/sessao16/objetos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pphppe/sessao16/poo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex_poo_sessao_16/ex2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex_poo_sessao_16/ex1/ex1.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex_poo_sessao_16/ex1/ex1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pphppe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pphppe/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ex_poo_sessao_16/ex1/ex1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+            <state relative-caret-position="720">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ex_poo_sessao_16/ex2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -85,6 +89,7 @@
         <option value="$PROJECT_DIR$/ex25_13/ex25_13_niver.py" />
         <option value="$PROJECT_DIR$/ex25_13/ex25_13.py" />
         <option value="$PROJECT_DIR$/ex_poo_sessao_16/ex1/ex1.py" />
+        <option value="$PROJECT_DIR$/ex_poo_sessao_16/ex2.py" />
       </list>
     </option>
   </component>
@@ -99,25 +104,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="exercicios_py" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercicios_py" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercicios_py" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercicios_py" type="462c0819:PsiDirectoryNode" />
-              <item name="ex_poo_sessao_16" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -134,7 +121,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ex1">
+  <component name="RunManager" selected="Python.ex2">
     <configuration name="ex1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="exercicios_py" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -148,6 +135,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex_poo_sessao_16/ex1/ex1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="exercicios_py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ex_poo_sessao_16" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex_poo_sessao_16/ex2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,41 +227,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex25_13_inserir_na_lista" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="exercicios_py" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex25_13_inserir_na_lista.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.ex25_13" />
-      <item itemvalue="Python.ex25_13_inserir_na_lista" />
       <item itemvalue="Python.ex25_13 (1)" />
       <item itemvalue="Python.ex25_13_busca" />
       <item itemvalue="Python.ex1" />
+      <item itemvalue="Python.ex2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ex2" />
         <item itemvalue="Python.ex1" />
         <item itemvalue="Python.ex25_13 (1)" />
         <item itemvalue="Python.ex25_13_busca" />
         <item itemvalue="Python.ex25_13" />
-        <item itemvalue="Python.ex25_13_inserir_na_lista" />
       </list>
     </recent_temporary>
   </component>
@@ -545,8 +532,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ex_poo_sessao_16/ex1/ex1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+        <state relative-caret-position="720">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex_poo_sessao_16/ex2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
         </state>
       </provider>
     </entry>
