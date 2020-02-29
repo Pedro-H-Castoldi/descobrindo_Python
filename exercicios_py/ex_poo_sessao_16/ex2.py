@@ -39,5 +39,7 @@ agenda_contatos.add_pessoa(p4)
 agenda_contatos.add_pessoa(p5)
 
 
-agenda_contatos.remover_pessoa('Mecias')
+#agenda_contatos.remover_pessoa('Mecias')
 agenda_contatos.buscar_pessoa('Mecias')
+
+print('teste')
