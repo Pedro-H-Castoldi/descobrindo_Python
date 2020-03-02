@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b7d0fb4-63af-458e-ae78-c51fcd1c4439" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ex3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex_poo_sessao_16/ex2.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex_poo_sessao_16/ex2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,16 +30,16 @@
   </component>
   <component name="ProjectId" id="1YUGG6QlJCupnNjCIfmhldI6GEz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Python.ex2">
+  <component name="RunManager" selected="Python.ex4">
     <configuration name="ex1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="exercicios_py" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,7 +103,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex25_13" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ex3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="exercicios_py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,7 +115,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex25_13.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex25_13_busca" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ex4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="exercicios_py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,11 +132,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ex25_13" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex25_13/ex25_13_busca.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,19 +146,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.ex25_13" />
       <item itemvalue="Python.ex25_13 (1)" />
-      <item itemvalue="Python.ex25_13_busca" />
       <item itemvalue="Python.ex1" />
       <item itemvalue="Python.ex2" />
+      <item itemvalue="Python.ex3" />
+      <item itemvalue="Python.ex4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ex4" />
+        <item itemvalue="Python.ex3" />
         <item itemvalue="Python.ex2" />
         <item itemvalue="Python.ex1" />
         <item itemvalue="Python.ex25_13 (1)" />
-        <item itemvalue="Python.ex25_13_busca" />
-        <item itemvalue="Python.ex25_13" />
       </list>
     </recent_temporary>
   </component>
@@ -173,21 +176,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1282" height="178" key="GridCell.Tab.0.bottom" timestamp="1582989709302">
+    <state width="1282" height="178" key="GridCell.Tab.0.bottom" timestamp="1583179988245">
       <screen x="61" y="27" width="1305" height="741" />
     </state>
-    <state width="1282" height="178" key="GridCell.Tab.0.bottom/61.27.1305.741@61.27.1305.741" timestamp="1582989709302" />
-    <state width="1282" height="178" key="GridCell.Tab.0.center" timestamp="1582989709300">
+    <state width="1282" height="178" key="GridCell.Tab.0.bottom/61.27.1305.741@61.27.1305.741" timestamp="1583179988245" />
+    <state width="1282" height="178" key="GridCell.Tab.0.center" timestamp="1583179988244">
       <screen x="61" y="27" width="1305" height="741" />
     </state>
-    <state width="1282" height="178" key="GridCell.Tab.0.center/61.27.1305.741@61.27.1305.741" timestamp="1582989709300" />
-    <state width="1282" height="178" key="GridCell.Tab.0.left" timestamp="1582989709299">
+    <state width="1282" height="178" key="GridCell.Tab.0.center/61.27.1305.741@61.27.1305.741" timestamp="1583179988244" />
+    <state width="1282" height="178" key="GridCell.Tab.0.left" timestamp="1583179988244">
       <screen x="61" y="27" width="1305" height="741" />
     </state>
-    <state width="1282" height="178" key="GridCell.Tab.0.left/61.27.1305.741@61.27.1305.741" timestamp="1582989709299" />
-    <state width="1282" height="178" key="GridCell.Tab.0.right" timestamp="1582989709301">
+    <state width="1282" height="178" key="GridCell.Tab.0.left/61.27.1305.741@61.27.1305.741" timestamp="1583179988244" />
+    <state width="1282" height="178" key="GridCell.Tab.0.right" timestamp="1583179988245">
       <screen x="61" y="27" width="1305" height="741" />
     </state>
-    <state width="1282" height="178" key="GridCell.Tab.0.right/61.27.1305.741@61.27.1305.741" timestamp="1582989709301" />
+    <state width="1282" height="178" key="GridCell.Tab.0.right/61.27.1305.741@61.27.1305.741" timestamp="1583179988245" />
   </component>
 </project>
