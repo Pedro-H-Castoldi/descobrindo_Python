@@ -1,1 +1,0 @@
-Testaolá? O seek dá pra ser usado mesmo sem o modo +

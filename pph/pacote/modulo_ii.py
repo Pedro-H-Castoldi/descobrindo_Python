@@ -1,2 +1,0 @@
-def facaOCerto():
-    return 'VIVA!!!'
