@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b7d0fb4-63af-458e-ae78-c51fcd1c4439" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ex3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercícios/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercícios/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prática/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prática/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/exercicios_py.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/exercicios_py.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex_poo_sessao_16/ex2.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex_poo_sessao_16/ex2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pphppe/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pphppe/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pphppe/.idea/pphppe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pphppe/.idea/pphppe.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pphppe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pphppe/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,12 +27,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
-  </component>
   <component name="ProjectId" id="1YUGG6QlJCupnNjCIfmhldI6GEz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -36,10 +35,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.ex4">
+  <component name="RunManager" selected="Python.ex13-8">
     <configuration name="ex1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="exercicios_py" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -61,6 +62,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ex13-8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="exercicios_py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex13-8.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ex2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="exercicios_py" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,27 +96,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex_poo_sessao_16/ex2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex25_13 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="exercicios_py" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ex25_13" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex25_13/ex25_13.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,7 +147,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.ex25_13 (1)" />
+      <item itemvalue="Python.ex13-8" />
       <item itemvalue="Python.ex1" />
       <item itemvalue="Python.ex2" />
       <item itemvalue="Python.ex3" />
@@ -154,11 +155,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ex13-8" />
         <item itemvalue="Python.ex4" />
         <item itemvalue="Python.ex3" />
         <item itemvalue="Python.ex2" />
         <item itemvalue="Python.ex1" />
-        <item itemvalue="Python.ex25_13 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -176,21 +177,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1282" height="178" key="GridCell.Tab.0.bottom" timestamp="1583179988245">
-      <screen x="61" y="27" width="1305" height="741" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1583423255636">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583423255636" />
     <state width="1282" height="178" key="GridCell.Tab.0.bottom/61.27.1305.741@61.27.1305.741" timestamp="1583179988245" />
-    <state width="1282" height="178" key="GridCell.Tab.0.center" timestamp="1583179988244">
-      <screen x="61" y="27" width="1305" height="741" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1583423255636">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583423255636" />
     <state width="1282" height="178" key="GridCell.Tab.0.center/61.27.1305.741@61.27.1305.741" timestamp="1583179988244" />
-    <state width="1282" height="178" key="GridCell.Tab.0.left" timestamp="1583179988244">
-      <screen x="61" y="27" width="1305" height="741" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1583423255636">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583423255636" />
     <state width="1282" height="178" key="GridCell.Tab.0.left/61.27.1305.741@61.27.1305.741" timestamp="1583179988244" />
-    <state width="1282" height="178" key="GridCell.Tab.0.right" timestamp="1583179988245">
-      <screen x="61" y="27" width="1305" height="741" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1583423255636">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583423255636" />
     <state width="1282" height="178" key="GridCell.Tab.0.right/61.27.1305.741@61.27.1305.741" timestamp="1583179988245" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1583423223046">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583423223046" />
   </component>
 </project>

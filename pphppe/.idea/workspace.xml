@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00a47dcd-f039-44bc-bccb-792c7477599b" name="Default Changelist" comment="adicionando files">
-      <change afterPath="$PROJECT_DIR$/sessao17/heranca.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercícios/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercícios/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prática/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prática/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicios_py/.idea/exercicios_py.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercicios_py/.idea/exercicios_py.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicios_py/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercicios_py/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercicios_py/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercicios_py/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/pphppe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pphppe.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -25,12 +30,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
-  </component>
   <component name="ProjectId" id="1YdECbHI6S2L4ELuw9otWgwAFW6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,7 +38,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../exercicios_py" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../pphppe/sessao11/11_debugando_codigo_em_pdb.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.heranca">
@@ -149,11 +149,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.abstracao_encapsulamento" />
       <item itemvalue="Python.atributos" />
+      <item itemvalue="Python.heranca" />
       <item itemvalue="Python.metodos" />
       <item itemvalue="Python.objetos" />
-      <item itemvalue="Python.abstracao_encapsulamento" />
-      <item itemvalue="Python.heranca" />
     </list>
     <recent_temporary>
       <list>
@@ -212,6 +212,14 @@
       <screen x="61" y="27" width="1305" height="741" />
     </state>
     <state x="387" y="27" width="642" height="741" key="#heranca/61.27.1305.741@61.27.1305.741" timestamp="1583267324018" />
+    <state x="326" y="0" key="CommitChangelistDialog2" timestamp="1583423572793">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="326" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583423572793" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1583423735421">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583423735421" />
     <state width="1282" height="175" key="GridCell.Tab.0.bottom" timestamp="1583269110066">
       <screen x="61" y="27" width="1305" height="741" />
     </state>
@@ -228,9 +236,10 @@
       <screen x="61" y="27" width="1305" height="741" />
     </state>
     <state width="1282" height="175" key="GridCell.Tab.0.right/61.27.1305.741@61.27.1305.741" timestamp="1583269110065" />
-    <state x="202" y="31" key="SettingsEditor" timestamp="1583267379889">
-      <screen x="61" y="27" width="1305" height="741" />
+    <state x="148" y="4" key="SettingsEditor" timestamp="1583423715684">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="148" y="4" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583423715684" />
     <state x="202" y="31" key="SettingsEditor/61.27.1305.741@61.27.1305.741" timestamp="1583267379889" />
     <state x="481" y="316" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583266526581">
       <screen x="61" y="27" width="1305" height="741" />
