@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be81a94d-92de-4aca-8dd3-d5dd32025450" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prática/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prática/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercicios_py/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercicios_py/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercicios_py/ex25_13/agenda.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../exercicios_py/ex25_13/agenda.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercicios_py/ex25_13/ex25_13.py" beforeDir="false" afterPath="$PROJECT_DIR$/../exercicios_py/ex25_13/ex25_13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pphppe/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pphppe/.idea/pphppe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pphppe/.idea/pphppe.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pphppe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pphppe/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +49,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\Pedro Henrique\Envs\phppe\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EX 15 - Aluguel de Carros.py" />
@@ -181,5 +185,27 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="401" y="0" key="#EX_15_-_Aluguel_de_Carros" timestamp="1583427112782">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="401" y="0" key="#EX_15_-_Aluguel_de_Carros/0.0.1366.728@0.0.1366.728" timestamp="1583427112782" />
+    <state width="1345" height="172" key="GridCell.Tab.0.bottom" timestamp="1583427118734">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="172" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583427118734" />
+    <state width="1345" height="172" key="GridCell.Tab.0.center" timestamp="1583427118734">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="172" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583427118734" />
+    <state width="1345" height="172" key="GridCell.Tab.0.left" timestamp="1583427118734">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="172" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583427118734" />
+    <state width="1345" height="172" key="GridCell.Tab.0.right" timestamp="1583427118734">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="172" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583427118734" />
   </component>
 </project>

@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0c314d6-3e6d-4c8e-bb75-d3b1ff402611" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../exercicios_py/ex1-13.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercicios_py/ex11-13.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercicios_py/ex15-13.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercicios_py/ex21-13.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercicios_py/ex25_13.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercicios_py/ex25_13_insercao_de_dados.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercicios_py/ex25_13_inserir.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercicios_py/ex25_13_remover.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercicios_py/ex25_13_variaveis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercicios_py/ex2_ex3_ex4-13.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exercícios/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercícios/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Projeto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Projeto.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prática/.idea/Prática.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prática/.idea/Prática.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prática/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prática/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prática/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prática/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercicios_py/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercicios_py/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pphppe/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pphppe/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pphppe/.idea/pphppe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pphppe/.idea/pphppe.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pphppe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pphppe/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +39,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.fiados">
     <configuration name="cadastrar_cliente" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -72,9 +71,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\Pedro Henrique\Envs\phppe\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fiados.py" />
@@ -109,5 +108,31 @@
       <updated>1560190375755</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="402" y="0" key="#fiados" timestamp="1583427205494">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="402" y="0" key="#fiados/0.0.1366.728@0.0.1366.728" timestamp="1583427205494" />
+    <state width="1345" height="178" key="GridCell.Tab.0.bottom" timestamp="1583427235465">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583427235465" />
+    <state width="1345" height="178" key="GridCell.Tab.0.center" timestamp="1583427235465">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583427235465" />
+    <state width="1345" height="178" key="GridCell.Tab.0.left" timestamp="1583427235465">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583427235465" />
+    <state width="1345" height="178" key="GridCell.Tab.0.right" timestamp="1583427235465">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583427235465" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1583427230419">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583427230419" />
   </component>
 </project>

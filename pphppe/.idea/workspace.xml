@@ -3,13 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="00a47dcd-f039-44bc-bccb-792c7477599b" name="Default Changelist" comment="adicionando files">
       <change beforePath="$PROJECT_DIR$/../Exercícios/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercícios/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/.idea/Projeto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/.idea/Projeto.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Projeto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prática/.idea/Prática.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prática/.idea/Prática.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prática/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prática/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Prática/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prática/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercicios_py/.idea/exercicios_py.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercicios_py/.idea/exercicios_py.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercicios_py/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercicios_py/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercicios_py/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercicios_py/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pphppe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pphppe.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +39,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../pphppe/sessao11/11_debugando_codigo_em_pdb.py" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="pphppe" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="pphppe" />
+      </console-settings>
+    </option>
   </component>
   <component name="RunManager" selected="Python.heranca">
     <configuration name="abstracao_encapsulamento" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -216,10 +224,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="326" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583423572793" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1583423735421">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1583428478134">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583423735421" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583428478134" />
     <state width="1282" height="175" key="GridCell.Tab.0.bottom" timestamp="1583269110066">
       <screen x="61" y="27" width="1305" height="741" />
     </state>
@@ -236,10 +244,10 @@
       <screen x="61" y="27" width="1305" height="741" />
     </state>
     <state width="1282" height="175" key="GridCell.Tab.0.right/61.27.1305.741@61.27.1305.741" timestamp="1583269110065" />
-    <state x="148" y="4" key="SettingsEditor" timestamp="1583423715684">
+    <state x="148" y="4" key="SettingsEditor" timestamp="1583428495864">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="148" y="4" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583423715684" />
+    <state x="148" y="4" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583428495864" />
     <state x="202" y="31" key="SettingsEditor/61.27.1305.741@61.27.1305.741" timestamp="1583267379889" />
     <state x="481" y="316" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583266526581">
       <screen x="61" y="27" width="1305" height="741" />

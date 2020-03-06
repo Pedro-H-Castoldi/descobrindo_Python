@@ -3,14 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="9b7d0fb4-63af-458e-ae78-c51fcd1c4439" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Exercícios/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercícios/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/.idea/Projeto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/.idea/Projeto.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Projeto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prática/.idea/Prática.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prática/.idea/Prática.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prática/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prática/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Prática/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prática/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/exercicios_py.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/exercicios_py.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pphppe/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pphppe/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pphppe/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pphppe/.idea/pphppe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pphppe/.idea/pphppe.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pphppe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pphppe/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -179,25 +179,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1583423255636">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1583427247040">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583423255636" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583427247040" />
     <state width="1282" height="178" key="GridCell.Tab.0.bottom/61.27.1305.741@61.27.1305.741" timestamp="1583179988245" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1583423255636">
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1583427247040">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583423255636" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583427247040" />
     <state width="1282" height="178" key="GridCell.Tab.0.center/61.27.1305.741@61.27.1305.741" timestamp="1583179988244" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1583423255636">
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1583427247040">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583423255636" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583427247040" />
     <state width="1282" height="178" key="GridCell.Tab.0.left/61.27.1305.741@61.27.1305.741" timestamp="1583179988244" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1583423255636">
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1583427247040">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583423255636" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583427247040" />
     <state width="1282" height="178" key="GridCell.Tab.0.right/61.27.1305.741@61.27.1305.741" timestamp="1583179988245" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1583423223046">
       <screen x="0" y="0" width="1366" height="728" />
