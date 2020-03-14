@@ -1,5 +1,5 @@
 from variaveis_g import *
-
+# NÃO MAIS NECESSÁRIO
 def consultarClientes():
     op = int(input('1- LISTA DE CLIENTES | 2- PESQUISAR CLIENTE: '))
     if op == 1:
