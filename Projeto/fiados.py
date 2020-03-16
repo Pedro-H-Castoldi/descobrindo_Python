@@ -6,10 +6,14 @@ from devedores import devedores
 
 from produto import Produto
 
-from exibir_clientes import consultarClientes
+from compra import Compra
 
-from variaveis_g import *
+from inserir_dados import inserir_dados
+from salvar_cliente import salvar_cliente
+from salvar_produto import salvar_produto
+
 def menu():
+    inserir_dados()
     while True:
         op = int(input('Escola uma opção: 1- Clientes | 2- Compras | 3- Produtos | 0- Encerrar: '))
 
@@ -24,6 +28,8 @@ def menu():
 
                 cliente = Cliente(nome, idade, cpf, endereco)
                 cliente.add()
+                salvar_cliente(cliente)
+
 
             elif op2 == 2:
                 op3 = int(input('1- Listar Clientes | 2- Pesquisar Cliente | 0- Voltar Menu: '))
@@ -39,9 +45,13 @@ def menu():
 
         elif op == 2:
             print('--- Menu Compra ---')
-            carrinho = Carrinho()
-            carrinho.conferir_cliente()
-            print(carrinho.__dict__)
+            op2 = int(input('1- Comprar - 2- Histórico de Compras : '))
+            if op2 == 1:
+                carrinho = Carrinho()
+                carrinho.conferir_cliente()
+            elif op2 == 2:
+                Compra.historico_de_compras()
+
 
         elif op == 3:
             print('--- Menu Produtos ---')
@@ -54,6 +64,7 @@ def menu():
 
                 produto = Produto(nome, tipo, preco, quant)
                 produto.add_produto()
+                salvar_produto(produto)
             elif op2 == 2:
                 op3 = int(input('1- Listar Produtos | 2- Pesquisar Produto | 0- Voltar Menu: '))
                 if op3 == 1:

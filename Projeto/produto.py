@@ -1,6 +1,6 @@
 class Produto:
 
-    cont = 0
+    cont = 1
     l_produtos = []
 
     def __init__(self, nome, tipo, preco, quant):

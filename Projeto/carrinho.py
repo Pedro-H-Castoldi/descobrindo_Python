@@ -1,5 +1,6 @@
 from cliente import Cliente
 from produto import Produto
+from compra import Compra
 """
 ATENÇÃO
     - CARRINHO SERÁ UMA NOVA CLASSE, O OBJETO CARRINHO TERÁ: CLIENTE, PRODUTOS(LISTA) - ATRIBUTOS DE INSTÂNCIA;
@@ -11,6 +12,13 @@ class Carrinho:
 
     def __init__(self):
         self.__l_carrinho = []
+
+    @property
+    def l_carrinho(self):
+        return self.__l_carrinho
+    @property
+    def cliente(self):
+        return self.__cliente
 
 
     def conferir_cliente(self):
@@ -36,11 +44,13 @@ class Carrinho:
 
             op = int(input('1- Continuar Comprando | 2- Ir para o Caixa | 0- Desfazer Carrinho: '))
             if op == 2:
-                # In para classe Compra
+                compra = Compra(self)
+                compra.comprar()
                 break
             elif op == 0:
                 self.__l_carrinho.clear()
                 break
+
 
 
 """

@@ -1,7 +1,7 @@
 class Cliente:
 
     l_clientes = []
-    cont = 0
+    cont = 1
 
     def __init__(self, nome, idade, cpf, endereco):
         self.__id = Cliente.cont + 1
@@ -9,6 +9,7 @@ class Cliente:
         self.__idade = idade
         self.__cpf = cpf.strip()
         self.__endereco = endereco.title().strip()
+        self.__devendo = False
         Cliente.cont = self.__id
 
     @property
@@ -26,6 +27,9 @@ class Cliente:
     @property
     def endereco(self):
         return self.__endereco
+    @property
+    def devendo(self):
+        return self.__devendo
 
     def add(self):
         Cliente.l_clientes.append(self)
@@ -33,7 +37,7 @@ class Cliente:
     @classmethod
     def listar_clientes(cls):
         for cliente in Cliente.l_clientes:
-            print(f'Nome: {cliente.nome} - Idade: {cliente.idade} - CPF: {cliente.cpf} - Endereço: {cliente.endereco}')
+            print(f'Nome: {cliente.nome} - Idade: {cliente.idade} - CPF: {cliente.cpf} - Endereço: {cliente.endereco} - Devendo: {cliente.devendo}')
 
     @classmethod
     def listar_clientes_nome(cls, nome):
@@ -41,7 +45,7 @@ class Cliente:
         for cliente in Cliente.l_clientes:
             if(cliente.nome == nome):
                 encontrado = True
-                print(f'Nome: {cliente.nome} - Idade: {cliente.idade} - CPF: {cliente.cpf} - Endereço: {cliente.endereco}')
+                print(f'Nome: {cliente.nome} - Idade: {cliente.idade} - CPF: {cliente.cpf} - Endereço: {cliente.endereco} - Devendo: {cliente.devendo}')
                 return cliente
         if not encontrado:
             print('Cliente não encontrado.')
