@@ -9,8 +9,12 @@ def inserir_dados():
             if dados[i] != '\n':
                 cli = dados[i].split('--')
 
-                cliente = Cliente(cli[1], int(cli[2]), cli[3], cli[4])
-                cliente.add()
+                if cli[5].replace('\n', '') == 'True':
+                    cliente = Cliente(cli[1], int(cli[2]), cli[3], cli[4], True)
+                    cliente.add()
+                else:
+                    cliente = Cliente(cli[1], int(cli[2]), cli[3], cli[4], False)
+                    cliente.add()
 
     with open('produtos.txt', 'a+', encoding='UTF-8') as produtos:
         produtos.seek(0)

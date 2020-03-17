@@ -26,9 +26,9 @@ def menu():
                 cpf = str(input('CPF: '))
                 endereco = str(input('Endereço: '))
 
-                cliente = Cliente(nome, idade, cpf, endereco)
+                cliente = Cliente(nome, idade, cpf, endereco, False)
                 cliente.add()
-                salvar_cliente(cliente)
+                salvar_cliente()
 
 
             elif op2 == 2:
@@ -64,7 +64,7 @@ def menu():
 
                 produto = Produto(nome, tipo, preco, quant)
                 produto.add_produto()
-                salvar_produto(produto)
+                salvar_produto()
             elif op2 == 2:
                 op3 = int(input('1- Listar Produtos | 2- Pesquisar Produto | 0- Voltar Menu: '))
                 if op3 == 1:
@@ -80,6 +80,8 @@ def menu():
                 pass
 
         else:
+            salvar_cliente()
+            salvar_produto()
             break
 
 menu()

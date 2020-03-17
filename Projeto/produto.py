@@ -1,6 +1,7 @@
+
 class Produto:
 
-    cont = 1
+    cont = 0
     l_produtos = []
 
     def __init__(self, nome, tipo, preco, quant):
@@ -58,6 +59,13 @@ class Produto:
         Produto.l_produtos.append(self)
 
     @classmethod
+    def diminuir_quant(cls, carrinho):
+        for i in range(len(carrinho)):
+            for j in range(len(Produto.l_produtos)):
+                if carrinho[i].id == Produto.l_produtos[j].id:
+                    Produto.l_produtos[j].quant -= 1
+
+    @classmethod
     def listar_produtos(cls):
         for produto in Produto.l_produtos:
             print(f'ID: {produto.id}  -  Nome: {produto.nome}  - Tipo: {produto.tipo}'
@@ -70,7 +78,8 @@ class Produto:
         for produto in Produto.l_produtos:
             if produto.nome == nome:
                 encontrado = True
-                print(f'ID: {produto.id}  -  Nome: {produto.nome}  - Tipo: {produto.tipo}  -  Preço: {produto.preco:.2f}  -  Quantidade: {produto.quant}')
+                print(f'ID: {produto.id}  -  Nome: {produto.nome}  - Tipo: {produto.tipo}'
+                      f'  -  Preço: {produto.preco:.2f}  -  Quantidade: {produto.quant} - Estoque: {produto.estoque}')
                 return produto
 
         if not encontrado:

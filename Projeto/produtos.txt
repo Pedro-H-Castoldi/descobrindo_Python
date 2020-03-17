@@ -1,6 +1,14 @@
-1--Arroz--comida--5.50--200--True
-2--Feijão--comida--8.20--290--True
-3--Macarrão--comida--4.80--300--True
+
+1--Arroz--comida--5.5--200--True
+
+2--Feijão--comida--8.2--290--True
+
+3--Macarrão--comida--4.8--300--True
+
 4--Ventilador Furacão--Eletrodoméstico--250.99--50--True
-5--PlyStation 4--Eletrodoméstico--2000--10--True
-6--L--letra--10.0--222--True
+
+5--Playstation 4--Eletrodoméstico--2000.0--10--True
+
+6--L--letra--10.0--217--True
+
+7--Moto G6 Play--Eletrônico--1250.0--0--False
