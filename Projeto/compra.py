@@ -3,6 +3,7 @@ from produto import Produto
 from cliente import Cliente
 from caderno_de_fiados import Fiado
 from salvar_produto import salvar_produto
+from datetime import date
 
 class Compra:
 
@@ -10,9 +11,12 @@ class Compra:
     l_compras = []
 
     def __init__(self, carrinho):
-        self.__id = Compra.cont + 1
+        self. __id = Compra.cont + 1
         self.__carrinho_c = carrinho.l_carrinho
         self.__cliente_c = carrinho.cliente
+        data = date.today()
+        data = f'{data.day}/{data.month}/{data.year}'
+        self.__data = data
         Compra.cont = self.__id
 
     @property
@@ -25,6 +29,9 @@ class Compra:
     def cliente_c(self):
         return self.__cliente_c
     @property
+    def data(self):
+        return self.__data
+    @property
     def total(self):
         return self.__total
 
@@ -34,11 +41,11 @@ class Compra:
         print(f'Cliente {self.cliente_c.nome}:')
 
         for i in range(len(self.carrinho_c)):
-            print(f'    {i} - ID Produto: {self.carrinho_c[i].id} - Produto: {self.carrinho_c[i].nome} - Preço: {self.carrinho_c[i].preco}')
+            print(f'    {i+1} - ID Produto: {self.carrinho_c[i].id} - Produto: {self.carrinho_c[i].nome} - Preço: {self.carrinho_c[i].preco}')
             total += self.carrinho_c[i].preco
 
         self.__total = total
-        print(f'Total: {self.total}')
+        print(f'Total: {self.total} | Data {self.data}')
 
         while True:
             op = int(input('1- Compra à vista | 2- Fiado | 3- Cancelar : '))
@@ -56,6 +63,7 @@ class Compra:
                     self.add_compra()
                     salvar_produto()
                     self.cliente_c.devendo = True
+                    fiado = Fiado(self)
                     break
             else:
                 break
@@ -65,10 +73,9 @@ class Compra:
 
     @classmethod
     def historico_de_compras(cls):
-        print(Compra.l_compras)
         for compra in Compra.l_compras:
             print(f'ID Compra: {compra.id} - Cliente: {compra.cliente_c.nome}:')
             for j in range(len(compra.carrinho_c)):
-                print(f'    {j} - ID Produto: {compra.carrinho_c[j].id} - Produto: {compra.carrinho_c[j].nome} - Preço: {compra.carrinho_c[j].preco}')
-            print(f'Total: {compra.total}')
+                print(f'    {j+1} - ID Produto: {compra.carrinho_c[j].id} - Produto: {compra.carrinho_c[j].nome} - Preço: {compra.carrinho_c[j].preco}')
+            print(f'Total: {compra.total} | data: {compra.data}')
             print()

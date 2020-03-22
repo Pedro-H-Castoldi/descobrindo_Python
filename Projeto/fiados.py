@@ -1,13 +1,8 @@
 from cliente import Cliente
-
 from carrinho import Carrinho
-
-from devedores import devedores
-
+from caderno_de_fiados import Fiado
 from produto import Produto
-
 from compra import Compra
-
 from inserir_dados import inserir_dados
 from salvar_cliente import salvar_cliente
 from salvar_produto import salvar_produto
@@ -40,7 +35,13 @@ def menu():
                     Cliente.listar_clientes_nome(nome)
 
             elif op2 == 3:
-                pass
+                op3 = int(input(f'1- Listar Devedores | 2- Caderno de contas | 3- Buscar Devedor no Caderno | 0- Voltar: '))
+                if op3 == 1:
+                    Fiado.listar_clientes_f()
+                elif op3 == 2:
+                    Fiado.historico_de_fiados()
+                elif op3 == 3:
+                    pass
 
 
         elif op == 2:

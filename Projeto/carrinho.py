@@ -1,13 +1,7 @@
 from cliente import Cliente
 from produto import Produto
 from compra import Compra
-"""
-ATENÇÃO
-    - CARRINHO SERÁ UMA NOVA CLASSE, O OBJETO CARRINHO TERÁ: CLIENTE, PRODUTOS(LISTA) - ATRIBUTOS DE INSTÂNCIA;
-    - A CLASSE COMPRA RECEBERÁ O OBJETO CARRINHO, NELA OS ATRIBUTOS SERÃO: ID_COMPRA, OBJETO CARRINHO - ATRIBUTOS DE INSTÂNCIA.
-    - A CLASSE COMPRA TERÁ UM ATRIBUTO DE CLASSE: LISTA_DE_COMPRAS(LISTA). NESSE ATRÍBUTO SERÃO ADICIONADOS TODOS OS OBJETOS DO TIPO COMPRA
-    DE TODOS OS CLIENTES DO SISTEMA.
-"""
+
 class Carrinho:
 
     def __init__(self):
@@ -22,7 +16,7 @@ class Carrinho:
 
 
     def conferir_cliente(self):
-        c_cliente = str(input('Insira o nome completo do cliente: '))
+        c_cliente = str(input('Insira o nome completo do cliente: ')).title()
         c_cliente = Cliente.listar_clientes_nome(c_cliente)
 
         if c_cliente:
@@ -33,23 +27,28 @@ class Carrinho:
         self.__l_carrinho.clear()
 
         while True:
-            c_produto = str(input('Insira o nome do produto: '))
+            c_produto = str(input('Insira o nome do produto: ')).title()
             c_produto = Produto.listar_produtos_nome(c_produto)
 
             if c_produto:
                 if c_produto.estoque:
-                    self.__l_carrinho.append(c_produto)
+                    self.l_carrinho.append(c_produto)
                 else:
                     print('Produto faltando.')
 
-            op = int(input('1- Continuar Comprando | 2- Ir para o Caixa | 0- Desfazer Carrinho: '))
-            if op == 2:
-                compra = Compra(self)
-                compra.comprar()
-                break
-            elif op == 0:
-                self.__l_carrinho.clear()
-                break
+            if not self.l_carrinho:
+                op = int(input('1- Continuar comprando | 0- Sair: '))
+                if op == 0:
+                    break
+            else:
+                op = int(input('1- Continuar Comprando | 2- Ir para o Caixa | 0- Desfazer Carrinho: '))
+                if op == 2:
+                    compra = Compra(self)
+                    compra.comprar()
+                    break
+                elif op == 0:
+                    self.l_carrinho.clear()
+                    break
 
 
 

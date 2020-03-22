@@ -1,32 +1,16 @@
-
 1--Pedro Henrique Castoldi Bezerra--23--123456789-20--Várzea Da Conceição--False
-
 2--Juliana Castoldi Bezerra--20--123486789-20--Várzea Da Conceição--False
-
 3--Luiza Castoldi--62--123256789-20--Várzea Da Conceição--False
-
 4--José Waetan Bezerra--69--5278456789-20--Várzea Da Conceição--False
-
 5--Juninho--4--545454545-65--Vc--False
-
 6--Jigglypuff--3--54545657-98--Vc--True
-
 7--Zanolha--2--46565576-54--Vc--False
-
 8--Gata--5--43435467-87--Céu--False
-
-9--Tuxa--8--3434376767-87--Céu--False
-
-10--Luffy--5--543565-54--Céu--False
-
+9--Tuxa--8--3434376767-87--Céu--True
+10--Luffy--5--543565-54--Céu--True
 11--Naná--6--444444444-44--Céu--False
-
 12--Quite--13--4545566556-67--Céu--False
-
-13--Bebezão--11--55465656557-65--Céu--False
-
+13--Bebezão--11--55465656557-65--Céu--True
 14--Cleiton David--10--2345554-64--Céu--False
-
 15--Psyduck--12--554545546-65--Céu--False
-
 16--Marry Wrash--11--443434232.08--Céu--False

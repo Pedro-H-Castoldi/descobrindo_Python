@@ -60,10 +60,8 @@ class Produto:
 
     @classmethod
     def diminuir_quant(cls, carrinho):
-        for i in range(len(carrinho)):
-            for j in range(len(Produto.l_produtos)):
-                if carrinho[i].id == Produto.l_produtos[j].id:
-                    Produto.l_produtos[j].quant -= 1
+        for produto in carrinho:
+            produto.quant -= 1
 
     @classmethod
     def listar_produtos(cls):
