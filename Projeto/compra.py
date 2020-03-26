@@ -4,6 +4,7 @@ from cliente import Cliente
 from caderno_de_fiados import Fiado
 from salvar_produto import salvar_produto
 from datetime import date
+from salvar_fiados import salvar_fiados
 
 class Compra:
 
@@ -44,6 +45,7 @@ class Compra:
             print(f'    {i+1} - ID Produto: {self.carrinho_c[i].id} - Produto: {self.carrinho_c[i].nome} - Preço: {self.carrinho_c[i].preco}')
             total += self.carrinho_c[i].preco
 
+        total = float(f'{total:.2f}')
         self.__total = total
         print(f'Total: {self.total} | Data {self.data}')
 
@@ -62,8 +64,9 @@ class Compra:
                     Produto.diminuir_quant(self.carrinho_c)
                     self.add_compra()
                     salvar_produto()
-                    self.cliente_c.devendo = True
+                    self.cliente_c.estado = True
                     fiado = Fiado(self)
+                    salvar_fiados()
                     break
             else:
                 break

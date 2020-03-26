@@ -1,7 +1,7 @@
 from cliente import Cliente
+import jsonpickle
 
 def salvar_cliente():
-    with open('clientes.txt', 'w+', encoding='UTF-8') as cli:
-        for cliente in Cliente.l_clientes:
-            cli.write(f'{cliente.id}--{cliente.nome}--{cliente.idade}--{cliente.cpf}--{cliente.endereco}--{cliente.devendo}')
-            cli.write('\n')
+    with open('clientes.json', 'w', encoding='UTF-8') as cli:
+        dados = jsonpickle.encode(Cliente.l_clientes)
+        cli.write(dados)

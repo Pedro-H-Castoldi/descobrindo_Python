@@ -20,12 +20,11 @@ class Animal:
         return self.__nome
 
     def falar(self):
-        # Obriga a classe filha implementar o método, sobrecrevendo o método dentro da mesma.
+        # Obriga a classe filha implementar o método, sobrescrevendo o método dentro da mesma.
         raise NotImplementedError('A Classe filha precisa implementar esse método')
 
     def comer(self):
         return f'{self.nome} está comendo.'
-
 
 class Gato(Animal):
     def __init__(self, nome):

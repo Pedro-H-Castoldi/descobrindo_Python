@@ -1,7 +1,7 @@
 from produto import Produto
+import jsonpickle
 
 def salvar_produto():
-    with open('produtos.txt', 'w+', encoding='UTF-8') as pro:
-        for produto in Produto.l_produtos:
-            pro.write(f'{produto.id}--{produto.nome}--{produto.tipo}--{produto.preco}--{produto.quant}--{produto.estoque}')
-            pro.write('\n')
+    with open('produtos.json', 'w', encoding='UTF-8') as pro:
+        dados = jsonpickle.encode(Produto.l_produtos)
+        pro.write(dados)
