@@ -1,6 +1,6 @@
 from carrinho import *
 from produto import Produto
-from cliente import Cliente
+from pagamento import Pagamento
 from caderno_de_fiados import Fiado
 from salvar_produto import salvar_produto
 from datetime import date
@@ -57,6 +57,7 @@ class Compra:
                     Produto.diminuir_quant(self.carrinho_c)
                     self.add_compra()
                     salvar_produto()
+                    pagamento = Pagamento(self, True)
                     break
             elif op == 2:
                 confirmar = int(input('1- Confirmar compra fiado? | 2- Voltar : '))
@@ -65,6 +66,7 @@ class Compra:
                     self.add_compra()
                     salvar_produto()
                     self.cliente_c.estado = True
+                    self.__tipo = False
                     fiado = Fiado(self)
                     salvar_fiados()
                     break

@@ -45,7 +45,7 @@ def menu():
                     elif op3 == 2:
                         Fiado.historico_de_fiados()
                     elif op3 == 3:
-                        nome = str(input('In sira o nome do cliente: ')).title()
+                        nome = str(input('Insira o nome do cliente: ')).title()
                         Fiado.devedor_compras(nome)
 
 

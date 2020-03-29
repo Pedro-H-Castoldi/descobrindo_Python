@@ -38,10 +38,13 @@ class Cliente:
         Cliente.l_clientes.append(self)
 
     @classmethod
-    def cliente_devendo(cls, cli):
+    def mudar_estatus(cls, cli):
         for cliente in Cliente.l_clientes:
             if cli.id == cliente.id:
-                cliente.estado = True
+                if cliente.estado:
+                    cliente.estado = False
+                else:
+                    cliente.estado = True
     @classmethod
     def listar_clientes(cls):
         for cliente in Cliente.l_clientes:

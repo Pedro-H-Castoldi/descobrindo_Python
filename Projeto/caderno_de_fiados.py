@@ -14,7 +14,7 @@ class Fiado():
         return self.__caderno
     @caderno.setter
     def caderno(self, compra):
-        self.__caderno.append([compra.id, compra.carrinho_c, compra.data,compra.total])
+        self.__caderno.append([compra.id, compra.carrinho_c, compra.data, compra.total])
     @property
     def cliente_f(self):
         return self.__cliente_f
@@ -48,6 +48,7 @@ class Fiado():
 
             if cont != 0:
                 self.__cliente_f = ''
+                obj.cliente_f.estado = True
                 obj.caderno.append(compra)
                 obj.add_devendo()
             elif cont == 0:
@@ -60,7 +61,7 @@ class Fiado():
         total = 0
         for i in range(len(self.caderno)):
             for j in range(len(self.caderno[i].carrinho_c)):
-                total += self.caderno[i].carrinho_c[j].preco
+                total += self.caderno[i].total
 
         devendo = total - self.total_ja_pago
         devendo = float(f'{devendo:.2f}')
@@ -101,10 +102,8 @@ class Fiado():
                 while True:
                     op = int(input('1- Pagar | 0- Voltar: '))
                     if op == 1:
-                        pagar = Pagamento(fiado)
-                        if Pagamento.confirmacao != False:
-                            fiado.total_ja_pago += pagar.total_ja_pago()
-                            print(fiado.total_ja_pago)
+                        pagar = Pagamento(fiado, False)
+                        if Pagamento.confirmar:
                             break
                     else:
                         break
