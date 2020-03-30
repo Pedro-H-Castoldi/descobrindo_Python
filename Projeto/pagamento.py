@@ -10,20 +10,50 @@ class Pagamento:
         self.__tipo = bool(tipo)
         self.__h_pagamento = [] # Historico de pagamentos de um determinado objeto (compras fiadas e à vista).
         self.pagar()
+        self.add_h()
+
+    @property
+    def dados(self):
+        return self.__dados
+    @property
+    def tipo(self):
+        return self.__tipo
+    @property
+    def valor(self):
+        return self.__valor
+    @property
+    def data_p(self):
+        return self.__data_p
+    @property
+    def h_pagamento(self):
+        return self.__h_pagamento
+    @h_pagamento.setter
+    def h_pagamento(self, dados):
+        if self.tipo:
+            self.h_pagamento.append([self.tipo, self.dados.carrinho_c, self.data_p, self.dados.total])
+        else:
+            self.h_pagamento.append([self.tipo, self.data_p, self.valor])
+    @property
+    def cliente(self):
+        return self.__cliente
 
     def pagar(self):
-        if self.__tipo:
-            print(f'ID da compra: {self.__dados.id}')
-            print(f'Cliente: {self.__dados.cliente_c.nome}  CPF: {self.__dados.cliente_c.cpf}')
-            for i in range(len(self.__dados.carrinho_c)):
-                print(f'    {i+1} - Produto {self.__dados.carrinho_c[i].nome} - Preço: {self.__dados.carrinho_c[i].preco}')
-            print(f'\nData: {self.__dados.data}')
-            print(f'TOTAL: {self.__dados.total}')
+        if self.tipo:
+            self.__cliente = self.dados.cliente_c
+            print(f'ID da compra: {self.dados.id}')
+            print(f'Cliente: {self.cliente.nome}  CPF: {self.cliente.cpf}')
+            for i in range(len(self.dados.carrinho_c)):
+                print(f'    {i+1} - Produto {self.dados.carrinho_c[i].nome} - Preço: {self.dados.carrinho_c[i].preco}')
+            print(f'\nData: {self.dados.data}')
+            print(f'TOTAL: {self.dados.total}')
 
             while True:
-                op = int(input(f'1- Confirmar pagamento no valor de {self.__dados.total} | 0- Cancelar: '))
+                op = int(input(f'1- Confirmar pagamento no valor de {self.dados.total} | 0- Cancelar: '))
                 if op == 1:
-                    # self.extrato()
+                    data = date.today()
+                    self.__data_p = data = f'{data.day}/{data.month}/{data.year}'
+                    self.h_pagamento.append(self)
+                    self.extrato()
                     break
                 else:
                     op2 = int(input('1- Confirmar cancelamento | 0- Voltar: '))
@@ -32,22 +62,30 @@ class Pagamento:
                         break
 
         else:
+            self.__cliente = self.__dados.cliente_f
             Pagamento.confirmar = True
-            valor = float(input('Insira o valor: '))
-            if valor > 0 and valor <= self.__dados.devendo:
-                op = int(input(f'1- Confirmar pagamento no valor de {valor} | 0- Cancelar: '))
+            self.__valor = float(input('Insira o valor: '))
+            if self.valor > 0 and self.valor <= self.__dados.devendo:
+                op = int(input(f'1- Confirmar pagamento no valor de {self.valor} | 0- Cancelar: '))
                 while True:
                     if op == 1:
-                        self.__dados.devendo -= valor
-                        self.__dados.total_ja_pago += valor
+                        self.dados.devendo -= self.valor
+                        self.dados.devendo = float(f'{self.dados.devendo:.2f}')
+                        self.dados.total_ja_pago += self.valor
+                        data = date.today()
+                        self.__data_p = data = f'{data.day}/{data.month}/{data.year}'
+                        self.h_pagamento.append(self)
 
                         if self.__dados.devendo == 0:
-                            print(f'As contas de {self.__dados.cliente_f.nome} estão em dia.')
-                            Cliente.mudar_estatus(self.__dados.cliente_f)
-                            self.__dados.cliente_f.estado = False
+                            print(f'As contas de {self.cliente.nome} estão em dia.')
+                            Cliente.mudar_estatus(self.cliente)
+                            self.dados.cliente_f.estado = False
+                            self.add_h()
+                            self.extrato()
                             break
                         else:
-                            print(f'Agora o cliente {self.__dados.cliente_f.nome} está devendo: \033[31mR${self.__dados.devendo}.\033[0;0m')
+                            print(f'Agora o cliente {self.cliente.nome} está devendo: \033[31mR${self.dados.devendo}.\033[0;0m')
+                            self.extrato()
                             break
                     else:
                         op2 = int(input('1- Confirmar cancelamento | 0- Voltar: '))
@@ -55,11 +93,47 @@ class Pagamento:
                             print('Pagamento cancelada.')
                             Pagamento.confirmar = False
                             break
+    def extrato(self):
+        if self.__tipo:
+            print('EXTRATO')
+            print(f'ID da compra: {self.dados.id}')
+            print(f'Cliente: {self.cliente.nome}  CPF: {self.cliente.cpf}')
+            for i in range(len(self.dados.carrinho_c)):
+                print(f'    {i + 1} - Produto {self.__dados.carrinho_c[i].nome} - Preço: {self.__dados.carrinho_c[i].preco}')
+            print(f'\nData: {self.dados.data}')
+            print(f'TOTAL: {self.dados.total}')
 
+        else:
+            print('EXTRATO')
+            print(f'Cliente: {self.cliente.nome}  CPF: {self.cliente.cpf}')
+            print(f'TOTAL DO VALOR PAGO: {self.__valor}')
+            print(f'DEVENDO: {self.dados.devendo}')
 
+    def add_h(self):
+        if not Pagamento.historico:
+            Pagamento.historico.append([self.cliente, self.h_pagamento])
+        else:
+            ver = False
+            obj = type(object)
+            for dado in Pagamento.historico:
+                if dado[0].id == self.cliente.id:
+                    ver = True
+                    obj = dado[1]
+                    break
 
+            if ver:
+                obj.append(self) # Isspo pode ser utilizado no caderno de fiados
+            else:
+                Pagamento.historico.append([self.cliente, self.h_pagamento])
 
+        for dado in Pagamento.historico:
+            print(f'Cliente: {dado[0].nome}')
+            for i in range(len(dado[1])):
+                if dado[1][i].tipo:
+                    print(f'  {i+1} - Valor: {dado[1][i].dados.total} - Data: {dado[1][i].data_p} - Tipo: Pagamento de compra à vista.')
 
+                else:
+                    print(f'  {i+1} - valor: {dado[1][i].valor} - Data: {dado[1][i].data_p} - Tipo: Pagamento de conta fiada.')
 """
     # ESSA CLASSE NÃO DEVERIA EXISTIR. TUDO ISSO VAI PRO CADERNO DE DEVEDORES
     confirmacao = True

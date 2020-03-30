@@ -8,7 +8,6 @@ class Fiado():
         self.anotando_fiado(compra)
         self.add_fiado()
 
-
     @property
     def caderno(self):
         return self.__caderno
@@ -32,7 +31,7 @@ class Fiado():
         self.__devendo = pagar
 
     def anotando_fiado(self, compra):
-        cont = 0
+        ver = False
         obj = type(object)
         if not Fiado.l_compras_fiadas:
             self.__cliente_f = compra.cliente_c
@@ -42,16 +41,16 @@ class Fiado():
         else:
             for cliente_v in Fiado.l_compras_fiadas:
                 if cliente_v.cliente_f.id == compra.cliente_c.id:
-                    cont += 1
+                    ver = True
                     obj = cliente_v
                     break
 
-            if cont != 0:
+            if ver:
                 self.__cliente_f = ''
                 obj.cliente_f.estado = True
                 obj.caderno.append(compra)
                 obj.add_devendo()
-            elif cont == 0:
+            else:
                 self.__cliente_f = compra.cliente_c
                 self.__total_ja_pago = 0
                 self.caderno.append(compra)
