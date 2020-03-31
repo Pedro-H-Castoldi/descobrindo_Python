@@ -1,12 +1,13 @@
-from pagamento import Pagamento
+import pagamento
+
 class Fiado():
 
     l_compras_fiadas = []
 
     def __init__(self, compra):
         self.__caderno = []
+        self.__cliente_f = compra.cliente_c
         self.anotando_fiado(compra)
-        self.add_fiado()
 
     @property
     def caderno(self):
@@ -34,10 +35,10 @@ class Fiado():
         ver = False
         obj = type(object)
         if not Fiado.l_compras_fiadas:
-            self.__cliente_f = compra.cliente_c
             self.__total_ja_pago = 0
             self.caderno.append(compra)
             self.add_devendo()
+            Fiado.l_compras_fiadas.append(self)
         else:
             for cliente_v in Fiado.l_compras_fiadas:
                 if cliente_v.cliente_f.id == compra.cliente_c.id:
@@ -46,15 +47,15 @@ class Fiado():
                     break
 
             if ver:
-                self.__cliente_f = ''
                 obj.cliente_f.estado = True
                 obj.caderno.append(compra)
                 obj.add_devendo()
+
             else:
-                self.__cliente_f = compra.cliente_c
                 self.__total_ja_pago = 0
                 self.caderno.append(compra)
                 self.add_devendo()
+                Fiado.l_compras_fiadas.append(self)
 
     def add_devendo(self):
         total = 0
@@ -65,12 +66,6 @@ class Fiado():
         devendo = total - self.total_ja_pago
         devendo = float(f'{devendo:.2f}')
         self.__devendo = devendo
-
-    def add_fiado(self):
-        if self.cliente_f == '':
-            pass
-        else:
-            Fiado.l_compras_fiadas.append(self)
 
     @classmethod
     def listar_clientes_f(cls):
@@ -99,11 +94,14 @@ class Fiado():
                 print()
 
                 while True:
-                    op = int(input('1- Pagar | 0- Voltar: '))
+                    op = int(input('1- Pagar | 2- Histórico de Pagamentos | 0- Voltar: '))
                     if op == 1:
-                        pagar = Pagamento(fiado, False)
-                        if Pagamento.confirmar:
+                        pagar = pagamento.Pagamento(fiado, False)
+                        if pagamento.Pagamento.confirmar:
                             break
+                    elif op == 2:
+                        pagamento.Pagamento.historico_de_pagamento(fiado.cliente_f.id)
+                        break
                     else:
                         break
 

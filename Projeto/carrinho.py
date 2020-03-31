@@ -17,7 +17,7 @@ class Carrinho:
 
     def conferir_cliente(self):
         c_cliente = str(input('Insira o nome completo do cliente: ')).title()
-        c_cliente = Cliente.listar_clientes_nome(c_cliente)
+        c_cliente = Cliente.cliente_dados(c_cliente)
 
         if c_cliente:
             self.__cliente = c_cliente

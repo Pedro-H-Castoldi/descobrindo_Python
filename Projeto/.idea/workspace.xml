@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0c314d6-3e6d-4c8e-bb75-d3b1ff402611" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/salvar_historico_de_compras.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salvar_historico_de_pagamentos.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/caderno_de_fiados.py" beforeDir="false" afterPath="$PROJECT_DIR$/caderno_de_fiados.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carrinho.py" beforeDir="false" afterPath="$PROJECT_DIR$/carrinho.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente.py" beforeDir="false" afterPath="$PROJECT_DIR$/cliente.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compra.py" beforeDir="false" afterPath="$PROJECT_DIR$/compra.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fiados.json" beforeDir="false" afterPath="$PROJECT_DIR$/fiados.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inserir_dados.py" beforeDir="false" afterPath="$PROJECT_DIR$/inserir_dados.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pagamento.py" beforeDir="false" afterPath="$PROJECT_DIR$/pagamento.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/produtos.json" beforeDir="false" afterPath="$PROJECT_DIR$/produtos.json" afterDir="false" />
     </list>
@@ -107,22 +113,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="402" y="0" key="#fiados/0.0.1366.728@0.0.1366.728" timestamp="1583427205494" />
-    <state width="1345" height="178" key="GridCell.Tab.0.bottom" timestamp="1585604999078">
+    <state width="1345" height="178" key="GridCell.Tab.0.bottom" timestamp="1585687616481">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585604999078" />
-    <state width="1345" height="178" key="GridCell.Tab.0.center" timestamp="1585604999077">
+    <state width="1345" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585687616481" />
+    <state width="1345" height="178" key="GridCell.Tab.0.center" timestamp="1585687616481">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585604999077" />
-    <state width="1345" height="178" key="GridCell.Tab.0.left" timestamp="1585604999077">
+    <state width="1345" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585687616481" />
+    <state width="1345" height="178" key="GridCell.Tab.0.left" timestamp="1585687616481">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585604999077" />
-    <state width="1345" height="178" key="GridCell.Tab.0.right" timestamp="1585604999077">
+    <state width="1345" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585687616481" />
+    <state width="1345" height="178" key="GridCell.Tab.0.right" timestamp="1585687616481">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585604999077" />
+    <state width="1345" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585687616481" />
     <state width="1345" height="222" key="GridCell.Tab.1.bottom" timestamp="1584978595969">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

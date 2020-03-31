@@ -5,6 +5,7 @@ from caderno_de_fiados import Fiado
 from salvar_produto import salvar_produto
 from datetime import date
 from salvar_fiados import salvar_fiados
+import salvar_historico_de_compras
 
 class Compra:
 
@@ -35,6 +36,9 @@ class Compra:
     @property
     def total(self):
         return self.__total
+    @property
+    def tipo(self):
+        return self.__tipo
 
     def comprar(self):
         total = 0
@@ -55,6 +59,7 @@ class Compra:
                 confirmar = int(input('1- Confirmar compra à vista? | 2- Voltar : '))
                 if confirmar == 1:
                     Produto.diminuir_quant(self.carrinho_c)
+                    self.__tipo = True
                     self.add_compra()
                     salvar_produto()
                     pagamento = Pagamento(self, True)
@@ -63,10 +68,10 @@ class Compra:
                 confirmar = int(input('1- Confirmar compra fiado? | 2- Voltar : '))
                 if confirmar == 1:
                     Produto.diminuir_quant(self.carrinho_c)
+                    self.__tipo = False
                     self.add_compra()
                     salvar_produto()
                     self.cliente_c.estado = True
-                    self.__tipo = False
                     fiado = Fiado(self)
                     salvar_fiados()
                     break
@@ -75,11 +80,15 @@ class Compra:
 
     def add_compra(self):
         Compra.l_compras.append(self)
+        salvar_historico_de_compras.salvar_comprar()
 
     @classmethod
     def historico_de_compras(cls):
         for compra in Compra.l_compras:
-            print(f'ID Compra: {compra.id} - Cliente: {compra.cliente_c.nome}:')
+            if compra.tipo:
+                print(f'ID Compra: {compra.id} - Tipo: À Vista - Cliente: {compra.cliente_c.nome}:')
+            else:
+                print(f'ID Compra: {compra.id} - Tipo: Fiada - Cliente: {compra.cliente_c.nome}:')
             for j in range(len(compra.carrinho_c)):
                 print(f'    {j+1} - ID Produto: {compra.carrinho_c[j].id} - Produto: {compra.carrinho_c[j].nome} - Preço: {compra.carrinho_c[j].preco}')
             print(f'Total: {compra.total} | data: {compra.data}')
