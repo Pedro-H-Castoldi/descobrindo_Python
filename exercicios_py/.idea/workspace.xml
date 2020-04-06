@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b7d0fb4-63af-458e-ae78-c51fcd1c4439" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Projeto/compra.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Projeto/inserir_dados.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Projeto/salvar_cliente.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Projeto/salvar_produto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercícios/.idea/Exercícios.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercícios/.idea/Exercícios.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercícios/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercícios/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercícios/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercícios/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Projeto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projeto/carrinho.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/carrinho.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projeto/cliente.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/cliente.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projeto/fiados.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/fiados.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projeto/produto.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/produto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/caderno_de_fiados.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/caderno_de_fiados.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/fiados.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/fiados.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/h_compras.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/h_compras.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/h_pagamentos.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/h_pagamentos.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/produtos.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/produtos.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prática/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prática/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pphppe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pphppe/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,9 +93,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\pedro_henrique\Envs\phppe\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ex25_13" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex25_13/ex25_13.py" />
@@ -178,25 +180,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1584392091364">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586014523025">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584392091364" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586014523025" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1586014525950">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586014525950" />
     <state width="1282" height="178" key="GridCell.Tab.0.bottom/61.27.1305.741@61.27.1305.741" timestamp="1583179988245" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1584392091364">
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1586014525949">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584392091364" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586014525949" />
     <state width="1282" height="178" key="GridCell.Tab.0.center/61.27.1305.741@61.27.1305.741" timestamp="1583179988244" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1584392091364">
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1586014525949">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584392091364" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586014525949" />
     <state width="1282" height="178" key="GridCell.Tab.0.left/61.27.1305.741@61.27.1305.741" timestamp="1583179988244" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1584392091364">
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1586014525950">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584392091364" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586014525950" />
     <state width="1282" height="178" key="GridCell.Tab.0.right/61.27.1305.741@61.27.1305.741" timestamp="1583179988245" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1583423223046">
       <screen x="0" y="0" width="1366" height="728" />

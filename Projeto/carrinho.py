@@ -1,4 +1,4 @@
-from cliente import Cliente
+import cliente
 from produto import Produto
 from compra import Compra
 
@@ -17,7 +17,7 @@ class Carrinho:
 
     def conferir_cliente(self):
         c_cliente = str(input('Insira o nome completo do cliente: ')).title()
-        c_cliente = Cliente.cliente_dados(c_cliente)
+        c_cliente = cliente.Cliente.cliente_dados(c_cliente)
 
         if c_cliente:
             self.__cliente = c_cliente
@@ -28,7 +28,7 @@ class Carrinho:
 
         while True:
             c_produto = str(input('Insira o nome do produto: ')).title()
-            c_produto = Produto.listar_produtos_nome(c_produto)
+            c_produto = Produto.produto_dados(c_produto)
 
             if c_produto:
                 if c_produto.estoque:
@@ -43,8 +43,8 @@ class Carrinho:
             else:
                 op = int(input('1- Continuar Comprando | 2- Ir para o Caixa | 0- Desfazer Carrinho: '))
                 if op == 2:
-                    compra = Compra(self)
-                    compra.comprar()
+                    comprar = Compra(self)
+                    comprar.comprar()
                     break
                 elif op == 0:
                     self.l_carrinho.clear()

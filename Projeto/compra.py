@@ -1,10 +1,9 @@
-from carrinho import *
 from produto import Produto
-from pagamento import Pagamento
-from caderno_de_fiados import Fiado
+import pagamento
+import caderno_de_fiados
 from salvar_produto import salvar_produto
 from datetime import date
-from salvar_fiados import salvar_fiados
+import salvar_fiados
 import salvar_historico_de_compras
 
 class Compra:
@@ -62,7 +61,7 @@ class Compra:
                     self.__tipo = True
                     self.add_compra()
                     salvar_produto()
-                    pagamento = Pagamento(self, True)
+                    pagar = pagamento.Pagamento(self, True)
                     break
             elif op == 2:
                 confirmar = int(input('1- Confirmar compra fiado? | 2- Voltar : '))
@@ -72,8 +71,8 @@ class Compra:
                     self.add_compra()
                     salvar_produto()
                     self.cliente_c.estado = True
-                    fiado = Fiado(self)
-                    salvar_fiados()
+                    fiado = caderno_de_fiados.Fiado(self)
+                    salvar_fiados.salvar_fiados()
                     break
             else:
                 break
@@ -83,13 +82,31 @@ class Compra:
         salvar_historico_de_compras.salvar_comprar()
 
     @classmethod
+    def historico_de_compras_cliente(cls, id):
+        encontrado = False
+        for compra in Compra.l_compras:
+            if id == compra.cliente_c.id:
+                encontrado = True
+                if compra.tipo:
+                    print(f'ID Compra: {compra.id} - Tipo: À Vista:')
+                else:
+                    print(f'ID Compra: {compra.id} - Tipo: Fiado:')
+                for i in range(len(compra.carrinho_c)):
+                    print(f'    {i+1} - ID Produto: {compra.carrinho_c[i].id} - Produto: {compra.carrinho_c[i].nome} - Preço: {compra.carrinho_c[i].preco}')
+                print(f'Total: {compra.total} | Data: {compra.data}')
+                print()
+
+        if encontrado == False:
+            print('Cliente não possui um histórico de compras.')
+
+    @classmethod
     def historico_de_compras(cls):
         for compra in Compra.l_compras:
             if compra.tipo:
                 print(f'ID Compra: {compra.id} - Tipo: À Vista - Cliente: {compra.cliente_c.nome}:')
             else:
                 print(f'ID Compra: {compra.id} - Tipo: Fiada - Cliente: {compra.cliente_c.nome}:')
-            for j in range(len(compra.carrinho_c)):
-                print(f'    {j+1} - ID Produto: {compra.carrinho_c[j].id} - Produto: {compra.carrinho_c[j].nome} - Preço: {compra.carrinho_c[j].preco}')
-            print(f'Total: {compra.total} | data: {compra.data}')
+            for i in range(len(compra.carrinho_c)):
+                print(f'    {i+1} - ID Produto: {compra.carrinho_c[i].id} - Produto: {compra.carrinho_c[i].nome} - Preço: {compra.carrinho_c[i].preco}')
+            print(f'Total: {compra.total} | Data: {compra.data}')
             print()

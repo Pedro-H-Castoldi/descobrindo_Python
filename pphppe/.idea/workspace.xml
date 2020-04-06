@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00a47dcd-f039-44bc-bccb-792c7477599b" name="Default Changelist" comment="adicionando files">
+      <change afterPath="$PROJECT_DIR$/sessao19/deltas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessao19/manipulando_data_e_hora.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessao19/metodos_data_hora.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercícios/.idea/Exercícios.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercícios/.idea/Exercícios.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercícios/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercícios/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exercícios/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercícios/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projeto/.idea/Projeto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/.idea/Projeto.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projeto/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Projeto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Prática/.idea/Prática.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prática/.idea/Prática.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Prática/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prática/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/caderno_de_fiados.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/caderno_de_fiados.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/carrinho.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/carrinho.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/cliente.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/cliente.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/compra.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/compra.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/fiados.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/fiados.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/h_compras.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/h_compras.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/h_pagamentos.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/h_pagamentos.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/produto.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/produto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/produtos.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/produtos.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Prática/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prática/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercicios_py/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercicios_py/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -40,6 +50,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -50,8 +61,8 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.heranca">
-    <configuration name="abstracao_encapsulamento" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.metodos_data_hora">
+    <configuration name="deltas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pphppe" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -59,32 +70,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao16" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao19" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao16/abstracao_encapsulamento.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="atributos" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pphppe" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao16" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao16/atributos.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao19/deltas.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -100,7 +90,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/.virtualenvs/pphppe/bin/python" />
+      <option name="SDK_HOME" value="C:\Users\pedro_henrique\Envs\phppe\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao17" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -114,7 +104,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="metodos" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="manipulando_data_e_hora" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pphppe" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,11 +112,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao16" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao19" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao16/metodos.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao19/manipulando_data_e_hora.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,7 +125,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="objetos" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="metodos_data_hora" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pphppe" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,11 +133,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao16" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao19" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao16/objetos.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao19/metodos_data_hora.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pphppe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao2/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,19 +168,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.abstracao_encapsulamento" />
-      <item itemvalue="Python.atributos" />
+      <item itemvalue="Python.deltas" />
       <item itemvalue="Python.heranca" />
-      <item itemvalue="Python.metodos" />
-      <item itemvalue="Python.objetos" />
+      <item itemvalue="Python.manipulando_data_e_hora" />
+      <item itemvalue="Python.metodos_data_hora" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.metodos_data_hora" />
+        <item itemvalue="Python.deltas" />
+        <item itemvalue="Python.manipulando_data_e_hora" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.heranca" />
-        <item itemvalue="Python.abstracao_encapsulamento" />
-        <item itemvalue="Python.objetos" />
-        <item itemvalue="Python.metodos" />
-        <item itemvalue="Python.atributos" />
       </list>
     </recent_temporary>
   </component>
@@ -212,6 +223,10 @@
       <screen x="61" y="27" width="1305" height="741" />
     </state>
     <state x="308" y="58" width="800" height="677" key="#Inspections/61.27.1305.741@61.27.1305.741" timestamp="1583267355963" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586014590410">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586014590410" />
     <state x="491" y="105" width="424" height="584" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1583267284166">
       <screen x="61" y="27" width="1305" height="741" />
     </state>
@@ -228,21 +243,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583428478134" />
-    <state width="1282" height="175" key="GridCell.Tab.0.bottom" timestamp="1583269110066">
-      <screen x="61" y="27" width="1305" height="741" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1586210580982">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586210580982" />
     <state width="1282" height="175" key="GridCell.Tab.0.bottom/61.27.1305.741@61.27.1305.741" timestamp="1583269110066" />
-    <state width="1282" height="175" key="GridCell.Tab.0.center" timestamp="1583269110064">
-      <screen x="61" y="27" width="1305" height="741" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1586210580980">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586210580980" />
     <state width="1282" height="175" key="GridCell.Tab.0.center/61.27.1305.741@61.27.1305.741" timestamp="1583269110064" />
-    <state width="1282" height="175" key="GridCell.Tab.0.left" timestamp="1583269110063">
-      <screen x="61" y="27" width="1305" height="741" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1586210580980">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586210580980" />
     <state width="1282" height="175" key="GridCell.Tab.0.left/61.27.1305.741@61.27.1305.741" timestamp="1583269110063" />
-    <state width="1282" height="175" key="GridCell.Tab.0.right" timestamp="1583269110065">
-      <screen x="61" y="27" width="1305" height="741" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1586210580982">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586210580982" />
     <state width="1282" height="175" key="GridCell.Tab.0.right/61.27.1305.741@61.27.1305.741" timestamp="1583269110065" />
     <state x="148" y="4" key="SettingsEditor" timestamp="1583428495864">
       <screen x="0" y="0" width="1366" height="728" />

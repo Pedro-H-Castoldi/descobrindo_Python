@@ -1,4 +1,5 @@
 import pagamento
+from compra import Compra
 class Cliente:
 
     l_clientes = []
@@ -58,9 +59,12 @@ class Cliente:
             if(cliente.nome == nome):
                 encontrado = True
                 print(f'ID Cliente: {cliente.id} - Nome: {cliente.nome} - Idade: {cliente.idade} - CPF: {cliente.cpf} - Endereço: {cliente.endereco} - Status: {cliente.estado}')
-                op = int(input('1- Histórico de Pagamentos | 0- Voltar: '))
+                op = int(input('1- Histórico de Pagamentos | 2- Histórico de Compras | 0- Voltar: '))
                 if op == 1:
                     pagamento.Pagamento.historico_de_pagamento(cliente.id)
+                    break
+                elif op == 2:
+                    Compra.historico_de_compras_cliente(cliente.id)
                     break
                 else:
                     break
@@ -68,10 +72,8 @@ class Cliente:
             print('Cliente não encontrado.')
     @classmethod
     def cliente_dados(cls, nome):
-        encontrado = False
         for cliente in Cliente.l_clientes:
             if (cliente.nome == nome):
-                encontrado = True
                 return cliente
-        if not encontrado:
-            print('Cliente não encontrado.')
+
+        print('Cliente não encontrado.')

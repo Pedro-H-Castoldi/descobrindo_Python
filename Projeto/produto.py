@@ -78,11 +78,39 @@ class Produto:
                 encontrado = True
                 print(f'ID: {produto.id}  -  Nome: {produto.nome}  - Tipo: {produto.tipo}'
                       f'  -  Preço: {produto.preco:.2f}  -  Quantidade: {produto.quant} - Estoque: {produto.estoque}')
-                return produto
+                op = int(input('1- Editar | 2- Excluir | 0- Voltar: '))
+                if op == 1:
+                    while True:
+                        op2 = int(input('1- Nome | 2- Tipo | 3- Preço | 4- Quantidade | 0- Cancelar: '))
+                        if op2 == 1:
+                            nome_e = str(input(f'Nome- {produto.nome}: '))
+                            produto.nome = nome_e
+                            print('Produto editado com sucesso.')
+                        elif op2 == 2:
+                            tipo_e = str(input(f'Tipo- {produto.tipo}: '))
+                            produto.tipo = tipo_e
+                            print('Produto editado com sucesso.')
+                        elif op2 == 3:
+                            preco_e = float(input(f'Preço- {produto.preco}: '))
+                            produto.preco = preco_e
+                            print('Produto editado com sucesso.')
+                        elif op2 == 4:
+                            quant_e = int(input(f'Quantidade- {produto.quant}: '))
+                            produto.quant = quant_e
+                            print('Produto editado com sucesso.')
+                        else:
+                            break
 
         if not encontrado:
             print('Produto não encontrado')
-            return False
+
+    @classmethod
+    def produto_dados(cls, nome):
+        for produto in Produto.l_produtos:
+            if produto.nome == nome:
+                return produto
+
+        print('Produto não encontrado')
 
 
 

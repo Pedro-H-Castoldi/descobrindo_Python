@@ -1,6 +1,7 @@
 import pagamento
+import compra
 
-class Fiado():
+class Fiado:
 
     l_compras_fiadas = []
 
@@ -94,7 +95,7 @@ class Fiado():
                 print()
 
                 while True:
-                    op = int(input('1- Pagar | 2- Histórico de Pagamentos | 0- Voltar: '))
+                    op = int(input('1- Pagar | 2- Histórico de Pagamentos | 3- Historico de Compras | 0- Voltar: '))
                     if op == 1:
                         pagar = pagamento.Pagamento(fiado, False)
                         if pagamento.Pagamento.confirmar:
@@ -102,8 +103,13 @@ class Fiado():
                     elif op == 2:
                         pagamento.Pagamento.historico_de_pagamento(fiado.cliente_f.id)
                         break
+                    elif op == 3:
+                        compra.Compra.historico_de_compras_cliente(fiado.cliente_f.id)
+                        break
                     else:
                         break
+        if encontrado == False:
+            print('Cliente não encontrado no caderno de devedores.')
 
     @classmethod
     def historico_de_fiados(cls):
