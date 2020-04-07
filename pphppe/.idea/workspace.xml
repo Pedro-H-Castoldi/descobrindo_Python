@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00a47dcd-f039-44bc-bccb-792c7477599b" name="Default Changelist" comment="adicionando files">
-      <change afterPath="$PROJECT_DIR$/sessao19/deltas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessao19/manipulando_data_e_hora.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessao19/metodos_data_hora.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercícios/.idea/Exercícios.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercícios/.idea/Exercícios.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercícios/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercícios/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercícios/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercícios/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projeto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projeto/caderno_de_fiados.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/caderno_de_fiados.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projeto/carrinho.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/carrinho.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projeto/cliente.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/cliente.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projeto/compra.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/compra.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projeto/fiados.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/fiados.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projeto/h_compras.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/h_compras.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projeto/h_pagamentos.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/h_pagamentos.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projeto/produto.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/produto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projeto/produtos.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/produtos.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Prática/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prática/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercicios_py/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercicios_py/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sessao19/metodos_data_hora.py" beforeDir="false" afterPath="$PROJECT_DIR$/sessao19/metodos_data_hora.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +34,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -185,7 +168,7 @@
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\pedro_henrique\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -243,30 +226,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583428478134" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1586210580982">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1586291621363">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586210580982" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586291621363" />
     <state width="1282" height="175" key="GridCell.Tab.0.bottom/61.27.1305.741@61.27.1305.741" timestamp="1583269110066" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1586210580980">
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1586291621363">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586210580980" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586291621363" />
     <state width="1282" height="175" key="GridCell.Tab.0.center/61.27.1305.741@61.27.1305.741" timestamp="1583269110064" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1586210580980">
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1586291621363">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586210580980" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586291621363" />
     <state width="1282" height="175" key="GridCell.Tab.0.left/61.27.1305.741@61.27.1305.741" timestamp="1583269110063" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1586210580982">
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1586291621363">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586210580982" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586291621363" />
     <state width="1282" height="175" key="GridCell.Tab.0.right/61.27.1305.741@61.27.1305.741" timestamp="1583269110065" />
-    <state x="148" y="4" key="SettingsEditor" timestamp="1583428495864">
+    <state x="148" y="4" key="SettingsEditor" timestamp="1586214480587">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="148" y="4" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583428495864" />
+    <state x="148" y="4" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586214480587" />
     <state x="202" y="31" key="SettingsEditor/61.27.1305.741@61.27.1305.741" timestamp="1583267379889" />
     <state x="481" y="316" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583266526581">
       <screen x="61" y="27" width="1305" height="741" />

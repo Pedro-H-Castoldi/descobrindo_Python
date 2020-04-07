@@ -54,9 +54,6 @@ elif nascimento.weekday() == 5:
 elif nascimento.weekday() == 6:
     print('Você nasceu em um domingo.')
 
-"""
-
-import datetime
 
 # Formatando data/hora com strftime() (String Format Time)
 # Modelo BR: dd/mm/yyyy hora:minuto
@@ -66,3 +63,67 @@ agora = datetime.datetime.today()
 formatado = agora.strftime('%d/%m/%Y') # Com %B no em vez de %m, mostra o mês pelo nome. %y em vez de %Y, mostra só 2 digitos (ex: 20), entre outros modos.
 
 print(formatado)
+
+
+# Traduzindo o nome do mês para português com TextBlob()
+from textblob import TextBlob
+
+def formata_data(data):
+    return f"{data.day} de {TextBlob(data.strftime('%B')).translate(to='pt-br')} de {data.year}"
+
+hoje = datetime.datetime.today()
+
+formata_data(hoje)
+
+
+# Traduzir nome do mês para português (n recomendado pq a tradução é online).
+from textblob import TextBlob
+
+def formatar_data(data):
+    return f"{data.day} {TextBlob(data.strftime('%B')).translate(to='pt-br')} de {data.year}"
+
+hoje = datetime.datetime.today()
+
+print(formatar_data(hoje))
+
+
+# Formatar uma string para uma data de modo Pythonico (sem precisar usar o split('/'))
+# O método strptime() pega uma string e transforma em um tipo date.
+data = datetime.datetime.strptime('24/09/1996', '%d/%m/%Y')
+print(data)
+
+# Convertendo uma string inserida pelo usuário para date
+data = str(input('Insira uma data (dd/mm/yyyy): '))
+data = datetime.datetime.strptime(data, '%d/%m/%Y')
+print(data)
+
+
+# Trabalhar somente com hora
+
+hora = datetime.time(10, 30) # 10:30
+print(hora)
+"""
+
+# Calculando o tempo de execução
+import timeit, functools
+
+# Usando for
+tempo = timeit.timeit('"-".join(str(n) for n in range(100))', number=10000)
+print(tempo)
+
+# Usando List Comphension
+tempo2 = timeit.timeit('".".join([str(n) for n in range(100)])', number=10000)
+print(tempo2)
+
+# Map
+tempo3 = timeit.timeit('"-".join(map(str, range(100)))', number=10000)
+print(tempo3)
+
+# Performance de uma função usando functools.partial()
+def teste(n):
+    soma = 0
+    for num in range(n * 200):
+        soma = soma + num ** num + 4
+    return soma
+
+print(timeit.timeit(functools.partial(teste, 2), number=10000))
