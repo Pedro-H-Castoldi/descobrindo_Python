@@ -12,13 +12,12 @@ class Compra:
     l_compras = []
 
     def __init__(self, carrinho):
-        self. __id = Compra.cont + 1
+        self.__id = Compra.l_compras[len(Compra.l_compras) - 1].id + 1
         self.__carrinho_c = carrinho.l_carrinho
         self.__cliente_c = carrinho.cliente
         data = date.today()
-        data = f'{data.day}/{data.month}/{data.year}'
+        data = data.strftime('%d/%m/%Y')
         self.__data = data
-        Compra.cont = self.__id
 
     @property
     def id(self):

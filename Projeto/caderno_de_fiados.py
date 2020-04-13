@@ -61,8 +61,7 @@ class Fiado:
     def add_devendo(self):
         total = 0
         for i in range(len(self.caderno)):
-            for j in range(len(self.caderno[i].carrinho_c)):
-                total += self.caderno[i].total
+            total += self.caderno[i].total
 
         devendo = total - self.total_ja_pago
         devendo = float(f'{devendo:.2f}')

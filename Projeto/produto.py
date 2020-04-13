@@ -1,17 +1,16 @@
+import salvar_produto
 
 class Produto:
 
-    cont = 0
     l_produtos = []
 
     def __init__(self, nome, tipo, preco, quant):
-        self.__id = Produto.cont + 1
+        self.__id = Produto.l_produtos[len(Produto.l_produtos) - 1].id + 1
         self.__nome = nome.title()
         self.__tipo = tipo
         self.__preco = preco
         self.__quant = quant
         self.ver_estoque()
-        Produto.cont = self.__id
 
     @property
     def id(self):
@@ -74,6 +73,7 @@ class Produto:
         encontrado = False
         cont_ex = 0
         for produto in Produto.l_produtos:
+            cont_ex += 1
             if produto.nome == nome:
                 encontrado = True
                 print(f'ID: {produto.id}  -  Nome: {produto.nome}  - Tipo: {produto.tipo}'
@@ -83,26 +83,37 @@ class Produto:
                     while True:
                         op2 = int(input('1- Nome | 2- Tipo | 3- Preço | 4- Quantidade | 0- Cancelar: '))
                         if op2 == 1:
-                            nome_e = str(input(f'Nome- {produto.nome}: '))
+                            nome_e = str(input(f'Nome- {produto.nome}: ')).title()
                             produto.nome = nome_e
+                            salvar_produto.salvar_produto()
                             print('Produto editado com sucesso.')
                         elif op2 == 2:
                             tipo_e = str(input(f'Tipo- {produto.tipo}: '))
                             produto.tipo = tipo_e
+                            salvar_produto.salvar_produto()
                             print('Produto editado com sucesso.')
                         elif op2 == 3:
                             preco_e = float(input(f'Preço- {produto.preco}: '))
                             produto.preco = preco_e
+                            salvar_produto.salvar_produto()
                             print('Produto editado com sucesso.')
                         elif op2 == 4:
                             quant_e = int(input(f'Quantidade- {produto.quant}: '))
                             produto.quant = quant_e
+                            salvar_produto.salvar_produto()
                             print('Produto editado com sucesso.')
                         else:
                             break
+                elif op == 2:
+                    op2 = int(input(f'1- Confirmar exclusão do produto: {produto.nome} | 2- Cancelar: '))
+                    if op2 == 1:
+                        print(f'O produto: {produto.nome} foi excluído com sucesso.')
+                        Produto.l_produtos.pop(cont_ex - 1)
+                        salvar_produto.salvar_produto()
 
         if not encontrado:
             print('Produto não encontrado')
+
 
     @classmethod
     def produto_dados(cls, nome):

@@ -79,12 +79,6 @@ def menu():
                         nome = str(input('Insira o nome do produto: ')).title().strip()
                         Produto.listar_produtos_nome(nome)
 
-                elif op2 == 3:
-                    pass
-
-                elif op2 == 4:
-                    pass
-
             else:
                 salvar_cliente()
                 salvar_produto()

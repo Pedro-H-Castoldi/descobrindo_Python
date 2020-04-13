@@ -29,10 +29,26 @@ class Carrinho:
         while True:
             c_produto = str(input('Insira o nome do produto: ')).title()
             c_produto = Produto.produto_dados(c_produto)
+            Produto.ver_estoque(c_produto)
 
             if c_produto:
                 if c_produto.estoque:
-                    self.l_carrinho.append(c_produto)
+                    while True:
+                        cont = 0
+                        quant = int(input(f'Quantidade de {c_produto.nome} X {c_produto.quant} : '))
+                        if quant > 0 and c_produto.quant >= quant:
+                            while cont < quant:
+                                cont += 1
+                                self.l_carrinho.append(c_produto)
+                            break
+                        elif quant <= 0:
+                            print('Insira uma quantidade válida.')
+                        else:
+                            print(f'A quantidade pedida é maior que a quantidade em estoque.')
+                            print(f'O produto {c_produto.nome} tem em estoque {c_produto.quant} unidade(s).')
+                            op = int(input(f'1- Tentar novamente | 0- Cancelar: '))
+                            if op != 1:
+                                break
                 else:
                     print('Produto faltando.')
 

@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00a47dcd-f039-44bc-bccb-792c7477599b" name="Default Changelist" comment="adicionando files">
+      <change afterPath="$PROJECT_DIR$/sessao20/assertions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessao20/doctests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessao20/por_que_testar_codigos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/caderno_de_fiados.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/caderno_de_fiados.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/carrinho.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/carrinho.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/cliente.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/cliente.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/clientes.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/clientes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/compra.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/compra.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/fiados.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/fiados.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/fiados.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/fiados.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/h_compras.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/h_compras.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/h_pagamentos.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/h_pagamentos.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/pagamento.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/pagamento.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/produto.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/produto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/produtos.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/produtos.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/salvar_cliente.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/salvar_cliente.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projeto/salvar_produto.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/salvar_produto.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sessao19/metodos_data_hora.py" beforeDir="false" afterPath="$PROJECT_DIR$/sessao19/metodos_data_hora.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +61,28 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.metodos_data_hora">
+  <component name="RunManager" selected="Python tests.Doctests in doctests">
+    <configuration name="assertions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pphppe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao20" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao20/assertions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="deltas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pphppe" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -58,48 +96,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao19/deltas.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="heranca" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pphppe" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\pedro_henrique\Envs\phppe\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao17" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao17/heranca.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="manipulando_data_e_hora" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pphppe" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao19" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao19/manipulando_data_e_hora.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,7 +125,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="por_que_testar_codigos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pphppe" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,11 +133,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao20" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao2/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao20/por_que_testar_codigos.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,20 +146,38 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Doctests in doctests" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="pphppe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao20" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao20/doctests.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.deltas" />
-      <item itemvalue="Python.heranca" />
-      <item itemvalue="Python.manipulando_data_e_hora" />
       <item itemvalue="Python.metodos_data_hora" />
-      <item itemvalue="Python.test" />
+      <item itemvalue="Python.assertions" />
+      <item itemvalue="Python.por_que_testar_codigos" />
+      <item itemvalue="Python tests.Doctests in doctests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Doctests in doctests" />
+        <item itemvalue="Python.assertions" />
+        <item itemvalue="Python.por_que_testar_codigos" />
         <item itemvalue="Python.metodos_data_hora" />
         <item itemvalue="Python.deltas" />
-        <item itemvalue="Python.manipulando_data_e_hora" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.heranca" />
       </list>
     </recent_temporary>
   </component>
@@ -187,15 +201,6 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adicionando files" />
@@ -226,25 +231,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583428478134" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1586291621363">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1586791994008">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586291621363" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586791994008" />
     <state width="1282" height="175" key="GridCell.Tab.0.bottom/61.27.1305.741@61.27.1305.741" timestamp="1583269110066" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1586291621363">
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1586791994005">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586291621363" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586791994005" />
     <state width="1282" height="175" key="GridCell.Tab.0.center/61.27.1305.741@61.27.1305.741" timestamp="1583269110064" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1586291621363">
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1586791994005">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586291621363" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586791994005" />
     <state width="1282" height="175" key="GridCell.Tab.0.left/61.27.1305.741@61.27.1305.741" timestamp="1583269110063" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1586291621363">
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1586791994005">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586291621363" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586791994005" />
     <state width="1282" height="175" key="GridCell.Tab.0.right/61.27.1305.741@61.27.1305.741" timestamp="1583269110065" />
     <state x="148" y="4" key="SettingsEditor" timestamp="1586214480587">
       <screen x="0" y="0" width="1366" height="728" />

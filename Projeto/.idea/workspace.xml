@@ -2,23 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0c314d6-3e6d-4c8e-bb75-d3b1ff402611" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../pphppe/sessao19/deltas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pphppe/sessao19/manipulando_data_e_hora.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercícios/.idea/Exercícios.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercícios/.idea/Exercícios.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercícios/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercícios/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercícios/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercícios/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pphppe/sessao20/assertions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pphppe/sessao20/por_que_testar_codigos.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/caderno_de_fiados.py" beforeDir="false" afterPath="$PROJECT_DIR$/caderno_de_fiados.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/carrinho.py" beforeDir="false" afterPath="$PROJECT_DIR$/carrinho.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cliente.py" beforeDir="false" afterPath="$PROJECT_DIR$/cliente.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientes.json" beforeDir="false" afterPath="$PROJECT_DIR$/clientes.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/compra.py" beforeDir="false" afterPath="$PROJECT_DIR$/compra.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fiados.json" beforeDir="false" afterPath="$PROJECT_DIR$/fiados.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiados.py" beforeDir="false" afterPath="$PROJECT_DIR$/fiados.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/h_compras.json" beforeDir="false" afterPath="$PROJECT_DIR$/h_compras.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/h_pagamentos.json" beforeDir="false" afterPath="$PROJECT_DIR$/h_pagamentos.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagamento.py" beforeDir="false" afterPath="$PROJECT_DIR$/pagamento.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/produto.py" beforeDir="false" afterPath="$PROJECT_DIR$/produto.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/produtos.json" beforeDir="false" afterPath="$PROJECT_DIR$/produtos.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Prática/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Prática/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercicios_py/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercicios_py/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salvar_cliente.py" beforeDir="false" afterPath="$PROJECT_DIR$/salvar_cliente.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salvar_produto.py" beforeDir="false" afterPath="$PROJECT_DIR$/salvar_produto.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pphppe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pphppe/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,22 +154,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586013595854" />
-    <state width="1345" height="178" key="GridCell.Tab.0.bottom" timestamp="1586186783158">
+    <state width="1345" height="178" key="GridCell.Tab.0.bottom" timestamp="1586464856193">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586186783158" />
-    <state width="1345" height="178" key="GridCell.Tab.0.center" timestamp="1586186783158">
+    <state width="1345" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586464856193" />
+    <state width="1345" height="178" key="GridCell.Tab.0.center" timestamp="1586464856193">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586186783158" />
-    <state width="1345" height="178" key="GridCell.Tab.0.left" timestamp="1586186783158">
+    <state width="1345" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586464856193" />
+    <state width="1345" height="178" key="GridCell.Tab.0.left" timestamp="1586464856193">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586186783158" />
-    <state width="1345" height="178" key="GridCell.Tab.0.right" timestamp="1586186783158">
+    <state width="1345" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586464856193" />
+    <state width="1345" height="178" key="GridCell.Tab.0.right" timestamp="1586464856193">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586186783158" />
+    <state width="1345" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586464856193" />
     <state width="1345" height="222" key="GridCell.Tab.1.bottom" timestamp="1586013410245">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

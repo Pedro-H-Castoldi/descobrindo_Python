@@ -54,7 +54,7 @@ class Pagamento:
                 op = int(input(f'1- Confirmar pagamento no valor de {self.dados.total} | 0- Cancelar: '))
                 if op == 1:
                     data = date.today()
-                    self.__data_p = data = f'{data.day}/{data.month}/{data.year}'
+                    self.__data_p = data.strftime('%d/%m/%Y')
                     self.h_pagamento.append(self)
                     self.extrato()
                     break
@@ -76,7 +76,7 @@ class Pagamento:
                         self.dados.devendo = float(f'{self.dados.devendo:.2f}')
                         self.dados.total_ja_pago += self.valor
                         data = date.today()
-                        self.__data_p = data = f'{data.day}/{data.month}/{data.year}'
+                        self.__data_p = data.strftime('%d/%m/%Y')
                         self.h_pagamento.append(self)
 
                         if self.__dados.devendo == 0:
@@ -104,13 +104,14 @@ class Pagamento:
             print(f'Cliente: {self.cliente.nome}  CPF: {self.cliente.cpf}')
             for i in range(len(self.dados.carrinho_c)):
                 print(f'    {i + 1} - Produto {self.__dados.carrinho_c[i].nome} - Preço: {self.__dados.carrinho_c[i].preco}')
-            print(f'\nData: {self.dados.data}')
+            print(f'\nData: {self.data_p}')
             print(f'TOTAL: {self.dados.total}')
 
         else:
             print('EXTRATO')
             print(f'Cliente: {self.cliente.nome}  CPF: {self.cliente.cpf}')
             print(f'TOTAL DO VALOR PAGO: {self.__valor}')
+            print(f'\nData: {self.data_p}')
             print(f'DEVENDO: {self.dados.devendo}')
 
     def add_h(self):
