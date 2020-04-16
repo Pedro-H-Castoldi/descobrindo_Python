@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00a47dcd-f039-44bc-bccb-792c7477599b" name="Default Changelist" comment="adicionando files">
-      <change afterPath="$PROJECT_DIR$/sessao20/assertions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessao20/doctests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessao20/por_que_testar_codigos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projeto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projeto/caderno_de_fiados.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/caderno_de_fiados.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projeto/carrinho.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/carrinho.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projeto/cliente.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/cliente.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projeto/clientes.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/clientes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projeto/compra.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/compra.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projeto/fiados.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/fiados.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projeto/fiados.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/fiados.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projeto/h_compras.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/h_compras.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projeto/h_pagamentos.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/h_pagamentos.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projeto/pagamento.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/pagamento.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projeto/produto.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/produto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projeto/produtos.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/produtos.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projeto/salvar_cliente.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/salvar_cliente.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projeto/salvar_produto.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Projeto/salvar_produto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessao20/antes_e_apos_hooks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessao20/atividades.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessao20/intro_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessao20/test_robo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessao20/testes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +35,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -61,8 +49,13 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Doctests in doctests">
-    <configuration name="assertions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pedro_henrique\PycharmProjects\descobrindo_Python\pphppe\sessao20\unittest" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests for sessao20.test_robo.RoboTestes.test_dizer_nome">
+    <configuration name="robo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pphppe" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,7 +67,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao20/assertions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao20/robo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -83,70 +76,49 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="deltas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for sessao20.test_robo.RoboTestes.test_bateria" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pphppe" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao19" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao19/deltas.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;sessao20.test_robo.RoboTestes.test_bateria&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="metodos_data_hora" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for sessao20.test_robo.RoboTestes.test_dizer_nome" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pphppe" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao19" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao19/metodos_data_hora.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;sessao20.test_robo.RoboTestes.test_dizer_nome&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="por_que_testar_codigos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for sessao20.testes.atividadesTestes" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pphppe" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao20" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao20/por_que_testar_codigos.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;sessao20.testes.atividadesTestes&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests in doctests" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for unittests.testes.atividadesTestes.test_comer_gostoso" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pphppe" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,29 +127,25 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao20/doctests.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;unittests.testes.atividadesTestes.test_comer_gostoso&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.deltas" />
-      <item itemvalue="Python.metodos_data_hora" />
-      <item itemvalue="Python.assertions" />
-      <item itemvalue="Python.por_que_testar_codigos" />
-      <item itemvalue="Python tests.Doctests in doctests" />
+      <item itemvalue="Python tests.Unittests for unittests.testes.atividadesTestes.test_comer_gostoso" />
+      <item itemvalue="Python tests.Unittests for sessao20.testes.atividadesTestes" />
+      <item itemvalue="Python.robo" />
+      <item itemvalue="Python tests.Unittests for sessao20.test_robo.RoboTestes.test_bateria" />
+      <item itemvalue="Python tests.Unittests for sessao20.test_robo.RoboTestes.test_dizer_nome" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Doctests in doctests" />
-        <item itemvalue="Python.assertions" />
-        <item itemvalue="Python.por_que_testar_codigos" />
-        <item itemvalue="Python.metodos_data_hora" />
-        <item itemvalue="Python.deltas" />
+        <item itemvalue="Python tests.Unittests for sessao20.test_robo.RoboTestes.test_dizer_nome" />
+        <item itemvalue="Python tests.Unittests for sessao20.test_robo.RoboTestes.test_bateria" />
+        <item itemvalue="Python.robo" />
+        <item itemvalue="Python tests.Unittests for sessao20.testes.atividadesTestes" />
+        <item itemvalue="Python tests.Unittests for unittests.testes.atividadesTestes.test_comer_gostoso" />
       </list>
     </recent_temporary>
   </component>
@@ -231,25 +199,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583428478134" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1586791994008">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1587004801678">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586791994008" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587004801678" />
     <state width="1282" height="175" key="GridCell.Tab.0.bottom/61.27.1305.741@61.27.1305.741" timestamp="1583269110066" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1586791994005">
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1587004801678">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586791994005" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587004801678" />
     <state width="1282" height="175" key="GridCell.Tab.0.center/61.27.1305.741@61.27.1305.741" timestamp="1583269110064" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1586791994005">
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1587004801678">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586791994005" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587004801678" />
     <state width="1282" height="175" key="GridCell.Tab.0.left/61.27.1305.741@61.27.1305.741" timestamp="1583269110063" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1586791994005">
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1587004801678">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586791994005" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587004801678" />
     <state width="1282" height="175" key="GridCell.Tab.0.right/61.27.1305.741@61.27.1305.741" timestamp="1583269110065" />
     <state x="148" y="4" key="SettingsEditor" timestamp="1586214480587">
       <screen x="0" y="0" width="1366" height="728" />
