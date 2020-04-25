@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00a47dcd-f039-44bc-bccb-792c7477599b" name="Default Changelist" comment="adicionando files">
-      <change afterPath="$PROJECT_DIR$/sessao20/antes_e_apos_hooks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessao20/atividades.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessao20/intro_unittest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessao20/test_robo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessao20/testes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +49,7 @@
       <recent name="C:\Users\pedro_henrique\PycharmProjects\descobrindo_Python\pphppe\sessao20\unittest" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for sessao20.test_robo.RoboTestes.test_dizer_nome">
+  <component name="RunManager" selected="Python.threads">
     <configuration name="robo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pphppe" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -68,6 +63,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao20/robo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="threads" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pphppe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao22" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\pedro_henrique\PycharmProjects\descobrindo_Python\pphppe\sessao22\threads.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,34 +134,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for unittests.testes.atividadesTestes.test_comer_gostoso" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="pphppe" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao20" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unittests.testes.atividadesTestes.test_comer_gostoso&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for unittests.testes.atividadesTestes.test_comer_gostoso" />
-      <item itemvalue="Python tests.Unittests for sessao20.testes.atividadesTestes" />
       <item itemvalue="Python.robo" />
+      <item itemvalue="Python tests.Unittests for sessao20.testes.atividadesTestes" />
       <item itemvalue="Python tests.Unittests for sessao20.test_robo.RoboTestes.test_bateria" />
       <item itemvalue="Python tests.Unittests for sessao20.test_robo.RoboTestes.test_dizer_nome" />
+      <item itemvalue="Python.threads" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.threads" />
         <item itemvalue="Python tests.Unittests for sessao20.test_robo.RoboTestes.test_dizer_nome" />
         <item itemvalue="Python tests.Unittests for sessao20.test_robo.RoboTestes.test_bateria" />
         <item itemvalue="Python.robo" />
         <item itemvalue="Python tests.Unittests for sessao20.testes.atividadesTestes" />
-        <item itemvalue="Python tests.Unittests for unittests.testes.atividadesTestes.test_comer_gostoso" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +185,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586014590410" />
+    <state x="432" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587840158080">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="432" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1587840158080" />
     <state x="491" y="105" width="424" height="584" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1583267284166">
       <screen x="61" y="27" width="1305" height="741" />
     </state>
@@ -199,25 +205,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583428478134" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1587004801678">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1587844242364">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587004801678" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587844242364" />
     <state width="1282" height="175" key="GridCell.Tab.0.bottom/61.27.1305.741@61.27.1305.741" timestamp="1583269110066" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1587004801678">
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1587844242364">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587004801678" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587844242364" />
     <state width="1282" height="175" key="GridCell.Tab.0.center/61.27.1305.741@61.27.1305.741" timestamp="1583269110064" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1587004801678">
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1587844242364">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587004801678" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587844242364" />
     <state width="1282" height="175" key="GridCell.Tab.0.left/61.27.1305.741@61.27.1305.741" timestamp="1583269110063" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1587004801678">
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1587844242364">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587004801678" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587844242364" />
     <state width="1282" height="175" key="GridCell.Tab.0.right/61.27.1305.741@61.27.1305.741" timestamp="1583269110065" />
     <state x="148" y="4" key="SettingsEditor" timestamp="1586214480587">
       <screen x="0" y="0" width="1366" height="728" />
