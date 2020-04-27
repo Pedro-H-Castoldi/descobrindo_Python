@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00a47dcd-f039-44bc-bccb-792c7477599b" name="Default Changelist" comment="adicionando files">
+      <change afterPath="$PROJECT_DIR$/sessao23/annotations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessao23/jogo_de_cartas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sessao22/threads.py" beforeDir="false" afterPath="$PROJECT_DIR$/sessao22/threads_e_processing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +52,8 @@
       <recent name="C:\Users\pedro_henrique\PycharmProjects\descobrindo_Python\pphppe\sessao20\unittest" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.threads">
-    <configuration name="robo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.jogo_de_cartas_v1">
+    <configuration name="annotations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pphppe" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -58,11 +61,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao20" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao23" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao20/robo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao23/annotations.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -71,7 +74,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="threads" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="jogo_de_cartas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pphppe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao23" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\pedro_henrique\PycharmProjects\descobrindo_Python\pphppe\sessao23\jogo_de_cartas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="threads_e_processing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pphppe" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -83,7 +107,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\pedro_henrique\PycharmProjects\descobrindo_Python\pphppe\sessao22\threads.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\pedro_henrique\PycharmProjects\descobrindo_Python\pphppe\sessao22\threads_e_processing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,18 +116,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for sessao20.test_robo.RoboTestes.test_bateria" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="type_hinting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pphppe" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sessao23" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;sessao20.test_robo.RoboTestes.test_bateria&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sessao23/type_hinting.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests for sessao20.test_robo.RoboTestes.test_dizer_nome" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -120,34 +151,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for sessao20.testes.atividadesTestes" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="pphppe" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;sessao20.testes.atividadesTestes&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.robo" />
-      <item itemvalue="Python tests.Unittests for sessao20.testes.atividadesTestes" />
-      <item itemvalue="Python tests.Unittests for sessao20.test_robo.RoboTestes.test_bateria" />
+      <item itemvalue="Python.threads_e_processing" />
+      <item itemvalue="Python.type_hinting" />
+      <item itemvalue="Python.annotations" />
       <item itemvalue="Python tests.Unittests for sessao20.test_robo.RoboTestes.test_dizer_nome" />
-      <item itemvalue="Python.threads" />
+      <item itemvalue="Python.jogo_de_cartas_v1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.threads" />
+        <item itemvalue="Python.jogo_de_cartas_v1" />
+        <item itemvalue="Python.annotations" />
+        <item itemvalue="Python.type_hinting" />
+        <item itemvalue="Python.threads_e_processing" />
         <item itemvalue="Python tests.Unittests for sessao20.test_robo.RoboTestes.test_dizer_nome" />
-        <item itemvalue="Python tests.Unittests for sessao20.test_robo.RoboTestes.test_bateria" />
-        <item itemvalue="Python.robo" />
-        <item itemvalue="Python tests.Unittests for sessao20.testes.atividadesTestes" />
       </list>
     </recent_temporary>
   </component>
@@ -205,25 +222,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583428478134" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1587844242364">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1588002834640">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587844242364" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588002834640" />
     <state width="1282" height="175" key="GridCell.Tab.0.bottom/61.27.1305.741@61.27.1305.741" timestamp="1583269110066" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1587844242364">
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1588002834639">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587844242364" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588002834639" />
     <state width="1282" height="175" key="GridCell.Tab.0.center/61.27.1305.741@61.27.1305.741" timestamp="1583269110064" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1587844242364">
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1588002834639">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587844242364" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588002834639" />
     <state width="1282" height="175" key="GridCell.Tab.0.left/61.27.1305.741@61.27.1305.741" timestamp="1583269110063" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1587844242364">
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1588002834640">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587844242364" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588002834640" />
     <state width="1282" height="175" key="GridCell.Tab.0.right/61.27.1305.741@61.27.1305.741" timestamp="1583269110065" />
     <state x="148" y="4" key="SettingsEditor" timestamp="1586214480587">
       <screen x="0" y="0" width="1366" height="728" />
